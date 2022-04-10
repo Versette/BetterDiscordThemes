@@ -1,0 +1,20 @@
+/**
+  * @name Resize Stuff
+  * @author V3rzeT
+  * @description Resizes some stuff that annoy me, and just has general sizing changes
+  * @version 1.0
+*/
+
+/* Bigger Sidebar */
+.sidebar-1tnWFu {
+  width: 20%;
+}
+
+/* Bigger Status/Activity Text Field (to fit sidebar) */
+.interactive-1vLZ_I {
+  width: 155% !important;
+}
+/* Idk what is wrong but need to change containers for sure */
+/* .channel-1Shao0, .container-32HW5s {
+  width: 1000px !important;
+} */
