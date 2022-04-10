@@ -187,6 +187,9 @@
   /* box-shadow: inset 0 0 0 2px var(--generalColor),inset 0 0 0 3px transparent !important; */
   box-shadow: inset 0px 0px 10px var(--generalColor),inset 0 0 0 2px var(--generalColor) !important;
 }
+.avatarSpeaking-33RRJU {
+  box-shadow: inset 0px 0px 10px var(--generalColor),inset 0 0 0 2px var(--generalColor) !important;
+}
 
 /* Sharing Screen Viewers Menu */
 .scroller-3b1p7z {
