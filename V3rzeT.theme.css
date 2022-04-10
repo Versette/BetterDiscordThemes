@@ -46,9 +46,9 @@
 /*Right Click Dialog*/
 .menu-1QACrS {
   /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.imgur.com/RyL5dyw.jpg); */
-  background-color: rgba(255, 255, 255, 0.01);
+  background-color: rgba(255, 255, 255, 0.03);
   backdrop-filter:blur(10px);
-  background-size: cover;
+  /* background-size: cover; */
   box-shadow: 0px 0px 5px gray;
 }
 .label-2gNW3x {
@@ -87,6 +87,9 @@
 /* Server Color Stuff */
 .channelName-3KPsGw, .name-3BUDLf, .icon-2W8DHg, .addButtonIcon-3rJeaD, .actionIcon-2sw4Sl, .arrow-2HswgU, .icon-2xnN2Y, .membersGroup-2eiWxl {
   color: white !important;
+}
+.unread-36eUEm .channelName-3KPsGw {
+  background-color: red !important;
 }
 
 /* Channel Selection */
@@ -137,6 +140,16 @@
   color: rgb(184, 184, 184) !important;
 }
 
+/* Message Quick Action Buttons */
+.wrapper-2vIMkT {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 5px gray;
+}
+.wrapper-2vIMkT .button-3bklZh {
+  color: white;
+}
+
 /* Server Icon Panel Transparency Stuff */
 .circleIconButton-1VxDrg {
   background: transparent !important;
@@ -144,6 +157,10 @@
   border-width: 2px;
   border-radius: 30px;
   border-color: var(--border-Accent-Color);
+}
+.circleIcon-3489FI {
+  color: var(--generalColor);
+  filter: drop-shadow(0px 0px 2px var(--generalColor));
 }
 .childWrapper-1j_1ub {
   background-color: rgba(0, 0, 0, 0.3);
