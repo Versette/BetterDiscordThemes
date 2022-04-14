@@ -72,7 +72,7 @@
 }
 
 /* Voice Channel People Count Transparency stuff */
-.channelInfo-3jN1ay {
+.content-1gYQeQ .children-1MGS9G .channelInfo-3jN1ay  {
   border-width: 2px;
   border-radius: 12px;
   background-color: transparent;
@@ -94,6 +94,7 @@
 /* Server Color Stuff */
 .channelName-3KPsGw, .name-3BUDLf, .icon-2W8DHg, .addButtonIcon-3rJeaD, .actionIcon-2sw4Sl, .arrow-2HswgU, .icon-2xnN2Y, .membersGroup-2eiWxl {
   color: white !important;
+  text-shadow: 0px 0px 5px black;
 }
 .unread-36eUEm .channelName-3KPsGw {
   background-color: red !important;
@@ -104,7 +105,7 @@
   background-color: rgba(255, 255, 255, 0.12) !important;
 }
 .content-1gYQeQ:hover, .interactive-1vLZ_I:hover {
-  background-color: rgba(255, 255, 255, 0.08) !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Voice Chat Nickname Color Fix */
@@ -115,10 +116,18 @@
   font-weight: normal;
 }
 
+/* Bottom Left Panel Text */
+/* .subtext-2HDqJ7:not(.usernameContainer-3PPkWq) {
+  color: red;
+} */
+.subtext-2HDqJ7 {
+  color: white;
+}
+
 /* Unread Message Channels */
-.unread-36eUEm {
+.unread-36eUEm, .item-2LIpTv {
   background-color: var(--generalColor) !important;
-  box-shadow: 0px 0px 8px var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
 }
 
 /* Unread Messages bar */
@@ -136,9 +145,19 @@
   color: white;
 }
 
-/* Text Input Field Transparency Stuff */
+/* Text Input Field Stuff */
+.slateTextArea-27tjG0 {
+  caret-color: white;
+  color: white;
+  left: -1px;
+  top: -0.5px !important;
+}
 .scrollableContainer-15eg7h {
-  background-color: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0px 0px 5px gray;
+}
+.form-3gdLxP {
+  padding-top: 5px;
 }
 
 /* Jump To Present Message Bar */
@@ -154,13 +173,19 @@
 /* Message Style */
 .username-h_Y3Us {
   font-weight: 600;
+  text-shadow: 0px 0px 5px black;
 }
 .messageContent-2t3eCI {
   color: white;
+  text-shadow: 0px 0px 5px black;
+}
+.messageListItem-ZZ7v6g:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .timestamp-p1Df1m {
   font-weight: 700;
   color: rgb(184, 184, 184) !important;
+  text-shadow: 0px 0px 05px black;
 }
 .content-vSHmMD {
   color: rgb(222, 222, 222);
@@ -171,9 +196,27 @@
 .divider-IqmEqJ {
   background-color: white !important;
   height: 2px;
+  border: none;
+  box-shadow: 0px 0px 5px white;
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
+.unreadPill-3nEWYM {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 15px white;
+}
+.unreadPillCapStroke-1nE1Q8 {
+  color: white;
+  fill: white;
+  box-shadow: 0px 0px 15px white;
 }
 .content-3spvdd {
   color: white;
+  text-shadow: 0px 0px 5px black;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  padding: 5px;
 }
 .roleColor-nA7BqX {
   color: white;
@@ -201,8 +244,18 @@
   color: var(--generalColor);
   filter: drop-shadow(0px 0px 2px var(--generalColor));
 }
+/* try to somehow add exception for guildsnav___home */
 .childWrapper-1j_1ub {
   background-color: rgba(0, 0, 0, 0.3);
+  /* border-style: solid;
+  border-width: 2px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border-color: var(--border-Accent-Color); */
+}
+.homeIcon-r0w4ny {
+  border: none !important;
 }
 
 /* User Popout */
@@ -254,6 +307,9 @@
 .speaking-3RWJBr {
   box-shadow: inset 0px 0px 10px var(--generalColor),inset 0 0 0 2px var(--generalColor) !important;
 }
+.overlay-2RIWoZ {
+  z-index: 1;
+}
 
 /* Sharing Screen Viewers Menu */
 .scroller-3b1p7z {
@@ -283,12 +339,22 @@
   border: none!important;
 }
 
-.slateTextArea-27tjG0 {
-  caret-color: white;
-  left: -1px;
-  top: -0.5px !important;
-}
-
 .content-3YMskv {
   background-color: transparent !important;
+}
+
+/* Settings Stuff */
+.bd-addon-card .bd-addon-header {
+  background-color: rgba(24, 24, 24, 0.692);
+}
+.bd-addon-card {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.bd-description {
+  font-weight: 600 !important;
+  color: white !important;
+}
+.bd-meta {
+  font-weight: bolder !important;
+  color: white;
 }
