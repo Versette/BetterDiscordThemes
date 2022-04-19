@@ -33,6 +33,27 @@
   background-color: rgba(255, 255, 255, 0.03);
 }
 
+/* DM Chats */
+.activityText-ev7Z1T {
+  color: beige;
+  text-shadow: 0px 0px 5px black;
+}
+
+/* Code Blocks */
+code.scrollbarGhostHairline-2LpzZ9 {
+  border-style: solid !important;
+  border-width: 2px !important;
+  border-color: var(--generalColor) !important;
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+code.inline {
+  border-style: solid !important;
+  border-width: 2px !important;
+  border-color: var(--generalColor) !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+
 /* Bottom Left User Panel */
 .panels-3wFtMD {
   background-color: rgba(255, 255, 255, 0.03);
@@ -54,8 +75,6 @@
   background-color: rgba(255, 255, 255, 0.03);
   /* background-size: cover; */
   box-shadow: 0px 0px 5px gray;
-}
-.styleFlexible-x0_sIC {
   backdrop-filter:blur(10px);
 }
 .label-2gNW3x {
@@ -89,6 +108,11 @@
 }
 .total-1c5KCN::after {
   border-right-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Embeds */
+.embedProvider-1GSN0c, .embedTitle-2n1pEb, .embedDescription-1DrJxZ {
+  text-shadow: 0px 0px 5px black !important;
 }
 
 /* Server Color Stuff */
@@ -285,10 +309,27 @@
 .creationDate-CJwdKT {
   color: white;
 }
+.topSection-13QKHs, .body-1Ukv50, .root-8LYsGj {
+  background-color: transparent !important;
+  backdrop-filter: blur(5px);
+}
+.root-8LYsGj {
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+}
 
 /* Mention */
 .mentioned-Tre-dv {
   background-color: rgba(255, 214, 101, 0.2);
+}
+.roleMention-11Aaqi:cont {
+  /* color: rgb(0, 238, 255) !important; Not possible to add to only @here and @everyone without JS */
+  text-shadow: 0px 0px 5px black;
+}
+.roleMention-11Aaqi:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 /* Speaking User */
