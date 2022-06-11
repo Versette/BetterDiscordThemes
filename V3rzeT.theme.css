@@ -135,14 +135,25 @@ code.inline {
 .embedProvider-1GSN0c, .embedTitle-2n1pEb, .embedDescription-1DrJxZ {
   text-shadow: 0px 0px 5px black !important;
 }
+.embedWrapper-1MtIDg {
+  background-color: rgba(0, 0, 0, 0.123);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--generalColor) !important;
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+.blockquoteDivider-363utW {
+  background-color: var(--generalColor) !important;
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
 
 /* Server Color Stuff */
 .channelName-3KPsGw, .name-3BUDLf, .icon-2W8DHg, .addButtonIcon-3rJeaD, .actionIcon-2sw4Sl, .arrow-2HswgU, .icon-2xnN2Y, .membersGroup-2eiWxl {
   color: white !important;
   text-shadow: 0px 0px 5px black;
 }
-.unread-36eUEm .channelName-3KPsGw {
-  background-color: red !important;
+.modeMuted-2T4MDZ .channelName-3KPsGw, .modeMuted-2T4MDZ .icon-2W8DHg {
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 /* Channel Selection */
