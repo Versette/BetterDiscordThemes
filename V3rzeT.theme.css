@@ -69,13 +69,23 @@ code.inline {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* Profile Nickname Font */
+.username-3JLfHz, .discrimBase-1VOoau {
+  color: white !important;
+}
+
 /*Right Click Dialog*/
 .menu-1QACrS {
-  /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.imgur.com/RyL5dyw.jpg); */
   background-color: rgba(255, 255, 255, 0.03);
-  /* background-size: cover; */
   box-shadow: 0px 0px 5px gray;
-  backdrop-filter:blur(10px);
+}
+.menu-1QACrS::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backdrop-filter: blur(10px);
+  z-index: -999;
 }
 .label-2gNW3x {
   font-weight: 400;
@@ -108,6 +118,17 @@ code.inline {
 }
 .total-1c5KCN::after {
   border-right-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Friends List */
+.actionButton-3-B2x- {
+  background: transparent !important;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  border-color: var(--border-Accent-Color);
+  color: var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
 }
 
 /* Embeds */
