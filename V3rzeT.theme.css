@@ -198,6 +198,16 @@ code.inline {
   backdrop-filter: blur(5px);
 }
 
+/* Other unread messages bar */
+.newMessagesBar-1hF-9G {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: var(--generalColor);
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 0px 0px 5px var(--generalColor);
+  backdrop-filter: blur(5px);
+}
+
 /* Activity Status Color Fix */
 .activityText-1rR-8O {
   color: white;
@@ -242,7 +252,7 @@ code.inline {
 }
 .timestamp-p1Df1m {
   font-weight: 700;
-  color: rgb(184, 184, 184) !important;
+  color: white !important;
   text-shadow: 0px 0px 05px black;
 }
 .content-vSHmMD {
@@ -278,6 +288,16 @@ code.inline {
 }
 .roleColor-nA7BqX {
   color: white;
+}
+.repliedTextPreview-1bvxun {
+  font-weight: 700;
+  color: white;
+  text-shadow: 0px 0px 5px black !important;
+}
+.repliedTextContent-2hOYMB {
+  font-weight: 700;
+  color: white;
+  text-shadow: 0px 0px 5px black !important;
 }
 
 /* Message Quick Action Buttons */
