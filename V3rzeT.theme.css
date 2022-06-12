@@ -51,6 +51,10 @@ code.inline {
   border-color: var(--generalColor) !important;
   border-radius: 5px !important;
   box-shadow: 0px 0px 5px var(--generalColor);
+  vertical-align: middle;
+}
+.zalgo-26OfGz .messageContent-2t3eCI {
+  overflow: visible;
 }
 
 /* Bottom Left User Panel */
