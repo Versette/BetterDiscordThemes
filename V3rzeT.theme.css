@@ -41,6 +41,54 @@
   text-shadow: 0px 0px 5px black;
 }
 
+/* Quick Channel Finder */
+.quickswitcher-pKcM9U {
+  border-style: solid !important;
+  border-width: 2px !important;
+  border-color: var(--generalColor) !important;
+  box-shadow: 0px 0px 5px var(--generalColor);
+
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+.quickswitcher-pKcM9U .scroller-2qwVWY {
+  background-color: transparent;
+}
+.quickswitcher-pKcM9U .scroller-2qwVWY .result-u66Ywh[aria-selected=true] {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.quickswitcher-pKcM9U .input-3r5zZY {
+  border-style: solid !important;
+  border-width: 2px !important;
+  border-color: var(--generalColor) !important;
+  box-shadow: 0px 0px 5px var(--generalColor);
+
+  background-color: transparent;
+}
+
+/* Friend Activity Panel */
+.container-1oAagU .itemCard-3Etziu {
+  border-style: solid !important;
+  border-width: 2px !important;
+  border-color: var(--generalColor) !important;
+  box-shadow: 0px 0px 5px var(--generalColor);
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.container-1oAagU .itemCard-3Etziu:hover{
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.container-1oAagU .body-16rSsp, .container-1oAagU .section-3G9aLW {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.container-1oAagU .text-sm-normal-3Zj3Iv {
+  color: white !important;
+}
+.container-1oAagU .outer-VAWfYQ {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  fill: transparent !important;
+}
+
 /* Code Blocks */
 code.scrollbarGhostHairline-2LpzZ9 {
   border-style: solid !important;
@@ -68,6 +116,9 @@ code.inline {
 /* Server Member Panel */
 .membersWrap-3NUR2t {
   background-color: rgba(255, 255, 255, 0.03);
+}
+.desaturateUserColors-1O-G89 span {
+  color: white !important;
 }
 
 /* Role Display Plugin Background fix */
