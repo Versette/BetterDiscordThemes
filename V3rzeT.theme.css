@@ -496,6 +496,38 @@ code.inline {
   background-color: transparent !important;
 }
 
+/* Text Selection */
+.messageContent-2t3eCI::selection {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.desaturateUserColors-1O-G89::selection {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.timestamp-p1Df1m time::selection {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.embedWrapper-1MtIDg::selection {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.embedDescription-1DrJxZ::selection, .embedMargin-2PsaQ4::selection, .embedDescription-1DrJxZ .emojiContainer-2XKwXX img::selection, .emojiContainer-2XKwXX img::selection,.embedDescription-1DrJxZ .anchor-1MIwyf::selection {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.desaturate-_Twf3u::selection {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.wrapper-1ZcZW-::selection {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.blockquoteContainer-3VtvI1 blockquote::selection {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.embedDescription-1DrJxZ strong::selection {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.textArea-2CLwUE div span span::selection {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
 /* Settings Stuff */
 .bd-addon-card .bd-addon-header {
   background-color: rgba(24, 24, 24, 0.692);
