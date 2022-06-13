@@ -53,6 +53,7 @@
   backdrop-filter: blur(15px);
 }
 .layer-2aCOJ3 .header-1BR0Ro, .layer-2aCOJ3 .searchLearnMore-1gNL3A, .layer-2aCOJ3 .filter-2QaH9y, .layer-2aCOJ3 .answer-14OVbQ, .layer-2aCOJ3 .plusIcon-1RVszG{
+  text-shadow: 0px 0px 5px black;
   color: white !important;
 }
 .layer-2aCOJ3 .option-ayUoaq:hover, .layer-2aCOJ3 .searchOption-3u1gRt:hover {
@@ -72,6 +73,7 @@
 .searchResultGroup-1lU_-i .channelName-3w2Y3c {
   background-color: transparent;
   color: white !important;
+  text-shadow: 0px 0px 5px black;
 }
 .searchResult-O9NDji {
   background-color: rgba(0, 0, 0, 0.2);
@@ -79,6 +81,14 @@
   border-width: 2px !important;
   border-color: var(--generalColor) !important;
   box-shadow: 0px 0px 5px var(--generalColor);
+}
+.searchResultsWrap-5RVOkx .pageButton-1GMGeJ[class~="activeButton-LRWFC_"] {
+  background-color: transparent;
+  border: 2px solid var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+.searchResultsWrap-5RVOkx .pageButton-1GMGeJ[class~="activeButton-LRWFC_"]:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* Quick Channel Finder */
