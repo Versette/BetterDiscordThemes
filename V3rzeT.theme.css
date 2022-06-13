@@ -503,6 +503,9 @@ code.inline {
 .speaking-3RWJBr {
   box-shadow: inset 0px 0px 10px var(--generalColor),inset 0 0 0 2px var(--generalColor) !important;
 }
+.speaking-3K28iH {
+  box-shadow: inset 0 0 0 2px var(--generalColor),inset 0 0 0 3px transparent;
+}
 .overlay-2RIWoZ {
   z-index: 1;
 }
