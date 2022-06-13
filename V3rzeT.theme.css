@@ -215,6 +215,10 @@ code.inline {
 .wrapper-1S43wv.muted-19J0ih .overflow-1wOqNV {
   color: rgba(255, 255, 255, 0.5) !important;
 }
+.channelInfo-3jN1ay {
+  /* Little White Circle on Channels fix */
+  display: none !important;
+}
 
 /* Channel Selection */
 .selected-2TbFuo .content-1gYQeQ, .selected-3veCBZ {
@@ -380,6 +384,10 @@ code.inline {
   color: var(--generalColor);
   filter: drop-shadow(0px 0px 2px var(--generalColor));
 }
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 /* try to somehow add exception for guildsnav___home */
 .childWrapper-1j_1ub {
   background-color: rgba(0, 0, 0, 0.3);
@@ -392,6 +400,19 @@ code.inline {
 }
 .homeIcon-r0w4ny {
   border: none !important;
+}
+.layer-2aCOJ3б, .tooltip-14MtrL, .layerContainer-2v_Sit .tooltipContent-Nejnvh {
+  background-color: rgba(0, 0, 0, 0.15) !important;
+  backdrop-filter: blur(5px);
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+}
+.layerContainer-2v_Sit .tooltipPointer-3L49xb {
+  /* This is the server name bubble left triangle that makes it look like a message. Removed because I didn't find out how to change it's color, and it's probably useless because of the border anyway */
+  display: none;
 }
 
 /* User Popout */
@@ -497,38 +518,12 @@ code.inline {
 }
 
 /* Text Selection */
-.messageContent-2t3eCI::selection {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-.desaturateUserColors-1O-G89::selection {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-.timestamp-p1Df1m time::selection {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-.embedWrapper-1MtIDg::selection {
-  background-color: rgba(255, 255, 255, 0.4) !important;
-}
-.embedDescription-1DrJxZ::selection, .embedMargin-2PsaQ4::selection, .embedDescription-1DrJxZ .emojiContainer-2XKwXX img::selection, .emojiContainer-2XKwXX img::selection,.embedDescription-1DrJxZ .anchor-1MIwyf::selection {
-  background-color: rgba(255, 255, 255, 0.4) !important;
-}
-.desaturate-_Twf3u::selection {
-  background-color: rgba(255, 255, 255, 0.4) !important;
-}
-.wrapper-1ZcZW-::selection {
-  background-color: rgba(255, 255, 255, 0.4) !important;
-}
-.blockquoteContainer-3VtvI1 blockquote::selection {
-  background-color: rgba(255, 255, 255, 0.4) !important;
-}
-.embedDescription-1DrJxZ strong::selection {
-  background-color: rgba(255, 255, 255, 0.4) !important;
-}
-.textArea-2CLwUE div span span::selection {
+*::selection {
   background-color: rgba(255, 255, 255, 0.4) !important;
 }
 
 /* Settings Stuff */
+
 .bd-addon-card .bd-addon-header {
   background-color: rgba(24, 24, 24, 0.692);
 }
@@ -538,8 +533,66 @@ code.inline {
 .bd-description {
   font-weight: 600 !important;
   color: white !important;
+  text-shadow: 0px 0px 5px black;
 }
 .bd-meta {
   font-weight: bolder !important;
   color: white;
+  text-shadow: 0px 0px 5px black;
+}
+.bd-settings-title, .bd-setting-note {
+  color: white !important;
+  text-shadow: 0px 0px 5px black;
+}
+.accountProfileCard-lbN7n- {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.background-3d_SjE, .fieldList-in8WkP {
+  background-color: transparent;
+}
+.item-2idW98 {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+}
+.button-f2h6uQ[class~="colorBrand-I6CyqQ"]:not(.button-12Fmur):not(.button-1kija8):not(.lookBlank-21BCro), .button-f2h6uQ[class~="fieldButton-14lHv"] {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+  backdrop-filter: blur(5px);
+}
+.bar-1Bhnl9 {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid rgba(128, 128, 128, 0.2) !important;
+  overflow: visible !important;
+  backdrop-filter: blur(5px) !important;
+}
+.barFill-2Bh7CX {
+  background-color: var(--generalColor) !important;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+  border: 1px solid var(--generalColor) !important;
+  border-radius: 20px !important;
+}
+.colorStandard-1Xxp1s {
+  color: white !important;
+  text-shadow: 0px 0px 5px black;
+}
+
+.container-2nx-BQ[class~="checked-25WXMf"], .bd-switch input:checked+.bd-switch-body {
+  /* On Checkbox */
+  background: rgba(255, 255, 255, 0.2) !important;
+  border: 2px solid var(--generalColor);
+}
+
+/* The unchecked checkbox's bg color */
+.container-2nx-BQ:not([class~="checked-25WXMf"]), .bd-switch-body {
+  /* Off Checkbox */
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 2px solid var(--border-Accent-Color);
+}
+
+/* Slider Head Position fix */
+.slider-32CRPX, .bd-switch-slider {
+  padding-bottom: 3px !important;
 }
