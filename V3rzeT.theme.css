@@ -19,7 +19,7 @@
     --color-secondary: transparent !important;
     --color-tertiary: transparent !important;
 
-    --background: url('https://i.imgur.com/oRRZNGd.png');
+    --background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://i.imgur.com/oRRZNGd.png');
     --chat-transparency: 0.7;
     --sides-transparency: 0.5;
     --sides-blur: 3px;
@@ -42,24 +42,24 @@
 }
 
 /* Text Chat Search Panel */
-.layer-2aCOJ3, .container-2McqkF {
+.container-2McqkF {
   background-color: transparent !important;
   box-shadow: 0px 0px 5px gray !important;
   border: none !important;
 }
-.layer-2aCOJ3 .resultsGroup-cfY57t {
+.layer-2aCOJ3 .container-2McqkF .resultsGroup-cfY57t {
   background-color: rgba(0, 0, 0, 0.2);
   text-shadow: 0px 0px 5px black;
   backdrop-filter: blur(15px);
 }
-.layer-2aCOJ3 .header-1BR0Ro, .layer-2aCOJ3 .searchLearnMore-1gNL3A, .layer-2aCOJ3 .filter-2QaH9y, .layer-2aCOJ3 .answer-14OVbQ, .layer-2aCOJ3 .plusIcon-1RVszG{
+.layer-2aCOJ3 .container-2McqkF .header-1BR0Ro, .layer-2aCOJ3 .container-2McqkF .searchLearnMore-1gNL3A, .layer-2aCOJ3 .container-2McqkF .filter-2QaH9y, .layer-2aCOJ3 .container-2McqkF .answer-14OVbQ, .layer-2aCOJ3 .container-2McqkF .plusIcon-1RVszG{
   text-shadow: 0px 0px 5px black;
   color: white !important;
 }
-.layer-2aCOJ3 .option-ayUoaq:hover, .layer-2aCOJ3 .searchOption-3u1gRt:hover {
+.layer-2aCOJ3 .container-2McqkF .option-ayUoaq:hover, .layer-2aCOJ3 .container-2McqkF .searchOption-3u1gRt:hover {
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
-.layer-2aCOJ3 .searchOption-3u1gRt::after, .layer-2aCOJ3 .plusIcon-1RVszG {
+.layer-2aCOJ3 .container-2McqkF .searchOption-3u1gRt::after, .layer-2aCOJ3 .container-2McqkF .plusIcon-1RVszG {
   background: none !important;
 }
 .searchResultsWrap-5RVOkx {
@@ -490,7 +490,7 @@ code.inline {
 .homeIcon-r0w4ny {
   border: none !important;
 }
-.layer-2aCOJ3б, .tooltip-14MtrL, .layerContainer-2v_Sit .tooltipContent-Nejnvh {
+.tooltip-14MtrL, .layerContainer-2v_Sit .tooltipContent-Nejnvh {
   background-color: rgba(0, 0, 0, 0.15) !important;
   backdrop-filter: blur(5px);
   border-style: solid;
@@ -705,10 +705,13 @@ code.inline {
 
 /* Plugin Compatibility */
 /* Message Logger V2 by 1lighty */
-.rg2m51e-xrbt549 {
+.ml2-deleted-alt {
   border: 2px solid red !important;
   border-radius: 5px !important;
   box-shadow: 0px 0px 5px red !important;
+}
+.ml2-deleted .messageContent-2t3eCI {
+  font-weight: bolder;
 }
 /* Voice Activity by Neodymium */
 .voiceActivityIcon {
