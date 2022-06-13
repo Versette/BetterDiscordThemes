@@ -322,7 +322,7 @@ code.inline {
 .timestamp-p1Df1m {
   font-weight: 700;
   color: white !important;
-  text-shadow: 0px 0px 05px black;
+  text-shadow: 0px 0px 5px black;
 }
 .content-vSHmMD {
   color: rgb(222, 222, 222);
@@ -391,7 +391,7 @@ code.inline {
   color: var(--generalColor);
   filter: drop-shadow(0px 0px 2px var(--generalColor));
 }
-.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+.wrapper-3kah-n[class~="selected-1Drb7Z"] .childWrapper-1j_1ub {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
