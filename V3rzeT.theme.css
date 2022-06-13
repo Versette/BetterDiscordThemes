@@ -103,6 +103,7 @@ code.inline {
   border-radius: 5px !important;
   box-shadow: 0px 0px 5px var(--generalColor);
   vertical-align: middle;
+  margin: 0px 1.5px 0px 1px !important;
 }
 .zalgo-26OfGz .messageContent-2t3eCI {
   overflow: visible;
