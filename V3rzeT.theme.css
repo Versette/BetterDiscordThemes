@@ -282,7 +282,7 @@ code.inline {
 }
 
 /* Other unread messages bar */
-.newMessagesBar-1hF-9G {
+.newMessagesBar-1hF-9G, .jumpToPresentBar-1cEnH0 {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: var(--generalColor);
   border-width: 2px;
@@ -616,4 +616,12 @@ code.inline {
 /* Slider Head Position fix */
 .slider-32CRPX, .bd-switch-slider {
   padding-bottom: 3px !important;
+}
+
+/* Plugin Compatibility */
+/* Message Logger V2 by 1lighty */
+.rg2m51e-xrbt549 {
+  border: 2px solid red;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px red !important;
 }
