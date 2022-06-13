@@ -143,6 +143,14 @@ code.inline {
   position: absolute;
   backdrop-filter: blur(10px);
   z-index: -999;
+  border-radius: 5px;
+}
+.menu-1QACrS .button-1zW0-r {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.menu-1QACrS .item-1OdjEX[class~="focused-3qFvc8"] {
+  background-color: rgba(255, 255, 255, 0.1) !important;
 }
 .label-2gNW3x {
   font-weight: 400;
