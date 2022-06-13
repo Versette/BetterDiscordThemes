@@ -474,6 +474,20 @@ code.inline {
   border-width: 2px;
   box-shadow: 0px 0px 5px var(--generalColor) !important;
 }
+.focusLock-2tveLW .relationshipButtons-3ByBpj .colorGreen-3y-Z79 {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+  backdrop-filter: blur(5px);
+}
+.note-3M15gE {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.note-3M15gE textarea:focus {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 /* Mention */
 .mentioned-Tre-dv {
@@ -628,4 +642,28 @@ code.inline {
   border: 2px solid red;
   border-radius: 5px;
   box-shadow: 0px 0px 5px red !important;
+}
+/* Voice Activity by Neodymium */
+.voiceActivityIcon {
+  background-color: transparent;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+}
+.voiceActivityIcon:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.voiceActivityButton {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+  backdrop-filter: blur(5px);
+}
+.voiceActivityDefaultIcon {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid var(--border-Accent-Color);
+  border-radius: 20px;
 }
