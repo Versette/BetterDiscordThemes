@@ -192,7 +192,7 @@ code.inline {
 .embedProvider-1GSN0c, .embedTitle-2n1pEb, .embedDescription-1DrJxZ {
   text-shadow: 0px 0px 5px black !important;
 }
-.embedWrapper-1MtIDg {
+.embedWrapper-1MtIDg:not(.imageWrapper-oMkQl4) {
   background-color: rgba(0, 0, 0, 0.123);
   border-style: solid;
   border-width: 2px;
@@ -203,6 +203,13 @@ code.inline {
   background-color: var(--generalColor) !important;
   box-shadow: 0px 0px 5px var(--generalColor);
 }
+/* Message Attachment Image Border Fix */
+/* I have no idea what looks better (no border around images at all, or only in embeds?)
+.messageAttachment-CZp8Iv .imageWrapper-oMkQl4 {
+  
+  box-shadow: none !important;
+  border: none !important;
+} */
 
 /* Server Color Stuff */
 .channelName-3KPsGw, .name-3BUDLf, .icon-2W8DHg, .addButtonIcon-3rJeaD, .actionIcon-2sw4Sl, .arrow-2HswgU, .icon-2xnN2Y, .membersGroup-2eiWxl {
