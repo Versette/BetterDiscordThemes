@@ -694,6 +694,20 @@ code.inline {
   color: white;
 }
 
+/* Network status menu */
+#popout_10479 .container-1ILvLB .graphContainer-3Txdak {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#popout_10479 .container-1ILvLB {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border: 2px solid var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+#popout_10479 .container-1ILvLB .popoutText-3NRmTw {
+  color: white;
+}
+
 /* Scrollbar Stuff */
 ::-webkit-scrollbar {
   border: none!important;
