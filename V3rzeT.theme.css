@@ -627,28 +627,27 @@ code.inline {
 }
 
 /* Screenshare Menu */
-.focusLock-2tveLW .modalSize-3WSXDU {
+.focusLock-2tveLW[aria-labelledby] .modalSize-3WSXDU {
   background-color: transparent !important;
-
   backdrop-filter: blur(5px);
 }
-.focusLock-2tveLW {
+.focusLock-2tveLW[aria-labelledby] {
   border-style: solid;
   border-color: var(--generalColor);
   border-width: 2px;
   box-shadow: 0px 0px 5px var(--generalColor) !important;
 }
-.focusLock-2tveLW .tile-3POX2m .flex-2S1XBF .flex-2S1XBF:hover {
+.focusLock-2tveLW[aria-labelledby] .tile-3POX2m .flex-2S1XBF .flex-2S1XBF:hover {
   /* Add glowing generalColor outline, TBD */
 }
-.focusLock-2tveLW .footer-31IekZ {
+.focusLock-2tveLW[aria-labelledby] .footer-31IekZ {
   border-top: 2px solid rgba(128, 128, 128, 0.2);
   background-color: rgba(0, 0, 0, 0.2);
 }
-.focusLock-2tveLW .card-m7VgZ8 {
+.focusLock-2tveLW[aria-labelledby].card-m7VgZ8 {
   background-color: rgba(0, 0, 0, 0.2);
 }
-.focusLock-2tveLW .group-1_ptLP button {
+.focusLock-2tveLW[aria-labelledby] .group-1_ptLP button {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-style: solid;
   border-color: rgba(128, 128, 128, 0.2);
@@ -657,7 +656,7 @@ code.inline {
   margin: 5px;
   padding: 5px;
 }
-.focusLock-2tveLW .group-1_ptLP button[class~="selectorButtonSelected-3cQUnj"] {
+.focusLock-2tveLW[aria-labelledby] .group-1_ptLP button[class~="selectorButtonSelected-3cQUnj"] {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-style: solid;
   border-color: var(--generalColor);
@@ -667,7 +666,7 @@ code.inline {
   margin: 5px;
   padding: 5px;
 }
-.focusLock-2tveLW .footer-31IekZ .button-f2h6uQ, .focusLock-2tveLW .changeButton-2kfgQt, .qualitySettingsContainer-2LjkfM .select-1Ia3hD {
+.focusLock-2tveLW[aria-labelledby] .footer-31IekZ .button-f2h6uQ, .focusLock-2tveLW[aria-labelledby] .changeButton-2kfgQt, .qualitySettingsContainer-2LjkfM .select-1Ia3hD {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-style: solid;
   border-color: var(--generalColor);
