@@ -626,6 +626,64 @@ code.inline {
   z-index: 1;
 }
 
+/* Screenshare Menu */
+.focusLock-2tveLW .modalSize-3WSXDU {
+  background-color: transparent !important;
+
+  backdrop-filter: blur(5px);
+}
+.focusLock-2tveLW {
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+}
+.focusLock-2tveLW .tile-3POX2m .flex-2S1XBF .flex-2S1XBF:hover {
+  /* Add glowing generalColor outline, TBD */
+}
+.focusLock-2tveLW .footer-31IekZ {
+  border-top: 2px solid rgba(128, 128, 128, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.focusLock-2tveLW .card-m7VgZ8 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.focusLock-2tveLW .group-1_ptLP button {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.2);
+  border-width: 2px;
+  backdrop-filter: blur(5px);
+  margin: 5px;
+  padding: 5px;
+}
+.focusLock-2tveLW .group-1_ptLP button[class~="selectorButtonSelected-3cQUnj"] {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+  backdrop-filter: blur(5px);
+  margin: 5px;
+  padding: 5px;
+}
+.focusLock-2tveLW .footer-31IekZ .button-f2h6uQ, .focusLock-2tveLW .changeButton-2kfgQt, .qualitySettingsContainer-2LjkfM .select-1Ia3hD {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+  backdrop-filter: blur(5px);
+}
+.layer-2aCOJ3 .popout-1KHNAq {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 5px gray;
+}
+.layer-2aCOJ3 .selectedIcon-19TbzU path {
+  fill: rgb(128, 128, 128);
+}
+
 /* Sharing Screen Viewers Menu */
 .scroller-3b1p7z {
   background-color: rgba(0, 0, 0, 0.3);
