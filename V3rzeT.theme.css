@@ -500,6 +500,15 @@ code.inline {
 .wrapper-3kah-n[class~="selected-1Drb7Z"] .childWrapper-1j_1ub {
   background-color: rgba(255, 255, 255, 0.2);
 }
+.folder-241Joy {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.folder-241Joy:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.expandedFolderBackground-1kSAf6 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
 
 /* try to somehow add exception for guildsnav___home */
 .childWrapper-1j_1ub {
