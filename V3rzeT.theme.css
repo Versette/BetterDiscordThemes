@@ -625,7 +625,13 @@ code.inline {
 
 /* Sharing Screen Viewers Menu */
 .scroller-3b1p7z {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  border: 2px solid var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+.scroller-3b1p7z .memberListHeader-1V_jWz {
+  color: white;
 }
 
 /* Scrollbar Stuff */
