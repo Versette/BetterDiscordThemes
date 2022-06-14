@@ -389,6 +389,14 @@ code.inline {
   color: white;
 }
 
+/* News Popout */
+.modal-3Hrb0S {
+  background-color: transparent;
+}
+.modal-3Hrb0S ul li {
+  color: white !important;
+}
+
 /* Jump To Present Message Bar */
 .jumpToPresentBar-1cEnH0 {
   margin-bottom: 7px;
@@ -763,7 +771,6 @@ code.inline {
 }
 
 /* Settings Stuff */
-
 .bd-addon-card .bd-addon-header {
   background-color: rgba(24, 24, 24, 0.692);
 }
@@ -794,7 +801,7 @@ code.inline {
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(5px);
 }
-.button-f2h6uQ[class~="colorBrand-I6CyqQ"]:not(.button-12Fmur):not(.button-1kija8):not(.lookBlank-21BCro), .button-f2h6uQ[class~="fieldButton-14lHv"] {
+.button-f2h6uQ[class~="colorBrand-I6CyqQ"]:not(.button-12Fmur):not(.button-1kija8):not(.lookBlank-21BCro), .button-f2h6uQ[class~="fieldButton-14lHv"], .fieldList-in8WkP button:not([class~="lookLink-15mFoz"]) {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-style: solid;
   border-color: var(--generalColor);
