@@ -450,6 +450,20 @@ code.inline {
   color: white;
   text-shadow: 0px 0px 5px black !important;
 }
+.reaction-3vwAF2 {
+  background-color: transparent;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+}
+.reaction-3vwAF2:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+}
 
 /* Message Quick Action Buttons */
 .wrapper-2vIMkT {
@@ -549,11 +563,29 @@ code.inline {
   box-shadow: 0px 0px 5px var(--generalColor) !important;
   backdrop-filter: blur(5px);
 }
-.note-3M15gE {
+.userPopout-2j1gM4 .bodyTitle-2Az3VQ, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .headerText-3g1XK9, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .playTime-3fSgOm {
+  color: white !important;
+  text-shadow: 0px 0px 5px black !important;
+}
+.gameIcon-1mDo1J {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.note-3M15gE, .note-Go5ZP2 {
   background-color: rgba(0, 0, 0, 0.3);
 }
-.note-3M15gE textarea:focus {
+.note-Go5ZP2 .textarea-_59yqs {
+  color: white !important;
+}
+.note-3M15gE textarea:focus, .note-Go5ZP2 textarea:focus {
   background-color: rgba(0, 0, 0, 0.5);
+}
+.userPopout-2j1gM4 .userInfoBody-1zgAd0, .userPopout-2j1gM4 .userInfoTitle-39qq0Y, .userPopout-2j1gM4 .voiceActivityHeader, .userPopout-2j1gM4 .voiceActivityText {
+  color: white !important;
+  text-shadow: 0px 0px 5px black !important;
+}
+.footer-3naVBw .inputWrapper-1YNMmM, .footer-3naVBw .inputWrapper-1YNMmM .inputDefault-3FGxgL {
+  color: white !important;
+  text-shadow: 0px 0px 5px black !important;
 }
 
 /* Mention */
@@ -736,4 +768,9 @@ code.inline {
   background-color: rgba(0, 0, 0, 0.3);
   border: 2px solid var(--border-Accent-Color);
   border-radius: 20px;
+}
+/* CharCounter by DevilBro */
+.charCounter-7fw40k {
+  font-weight: bold;
+  color: white;
 }
