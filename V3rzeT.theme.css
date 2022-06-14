@@ -471,11 +471,11 @@ code.inline {
   color: white;
   text-shadow: 0px 0px 5px black !important;
 }
-.reaction-3vwAF2 {
-  background-color: transparent;
-  border-style: solid;
-  border-color: var(--generalColor);
-  border-width: 2px;
+.reaction-3vwAF2, .reactionMe-1PwQAc {
+  background-color: transparent !important;
+  border-style: solid !important;
+  border-color: var(--generalColor) !important;
+  border-width: 2px !important;
   box-shadow: 0px 0px 5px var(--generalColor) !important;
 }
 .reaction-3vwAF2:hover {
@@ -622,6 +622,10 @@ code.inline {
 }
 .userInfoBody-1zgAd0 {
   overflow: visible;
+}
+.userPopout-2j1gM4 .avatar-2Vndt_ {
+  border-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* Mention */
