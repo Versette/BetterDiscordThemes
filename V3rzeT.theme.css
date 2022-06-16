@@ -764,6 +764,18 @@ code.inline {
   backdrop-filter: blur(5px);
 }
 
+/* Pinned Messages Popout */
+.layerContainer-2v_Sit .layer-2aCOJ3 .header-1w9Q93, .layerContainer-2v_Sit .layer-2aCOJ3 .footer-5ji8u1 {
+  background-color: transparent;
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .messagesPopoutWrap-3zryHW {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+}
+.messageGroupWrapper-1jf_7C {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 /* Sharing Screen Viewers Menu */
 .layerContainer-2v_Sit .scroller-3b1p7z {
   background-color: rgba(0, 0, 0, 0.3);
