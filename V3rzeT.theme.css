@@ -727,6 +727,10 @@ code.inline {
 .focusLock-2tveLW[aria-labelledby] .art-1TvEXv {
   display: none;
 }
+.focusLock-2tveLW[aria-labelledby] .modalCloseButton-3jqiBN {
+  color: var(--generalColor);
+  z-index: 20 !important;
+}
 
 /* Sharing Screen Viewers Menu */
 .scroller-3b1p7z {
