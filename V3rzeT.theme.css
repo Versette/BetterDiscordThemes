@@ -41,6 +41,11 @@
   text-shadow: 0px 0px 5px black;
 }
 
+/* Image Attachments Preview */
+.channelAttachmentArea-HwpkuQ li {
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
 /* Text Chat Search Panel */
 .container-2McqkF {
   background-color: transparent !important;
@@ -114,6 +119,15 @@
   box-shadow: 0px 0px 5px var(--generalColor);
 
   background-color: transparent;
+}
+
+/* Delete message popout */
+.layer-1Ixpg3 .focusLock-2tveLW .root-g14mjS {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(5px);
+}
+.layer-1Ixpg3 .focusLock-2tveLW .root-g14mjS .content-2hZxGK .message-G6O-Wv {
+  background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
 /* Friend Activity Panel */
@@ -492,6 +506,9 @@ code.inline {
   border-width: 2px;
   box-shadow: 0px 0px 5px var(--generalColor) !important;
 }
+.attachment-1PZZB2 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
 /* Message Quick Action Buttons */
 .wrapper-2vIMkT {
@@ -728,6 +745,10 @@ code.inline {
   color: var(--generalColor);
   z-index: 20 !important;
 }
+.content-2a4AW9 .container-3EtAkD {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+}
 
 /* Sharing Screen Viewers Menu */
 .scroller-3b1p7z {
@@ -904,6 +925,31 @@ code.inline {
 }
 .children-1xdcWE .accountList-Wii_T5 .accountBtnInner-3ttD-i {
   background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.searchContainer-u-1vUp .container-2oNtJn {
+  background-color: rgba(24, 24, 24, 0.692) !important;
+  backdrop-filter: blur(5px);
+}
+.buttonsContainer-3YZnb2 .circleButton-2Yr5A1, .membersHeader-6GlAlu .searchBar-3joS_I {
+  background-color: rgba(24, 24, 24, 0.692) !important;
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .container-2O1UgZ {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0px 0px 5px gray !important;
+  backdrop-filter: blur(5px);
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .container-2O1UgZ .itemLabel-27pirQ span {
+  color: white !important;
+}
+.customHeader-3mDgmH .quickSelect-i8mQq1 .quickSelectLabel-ArUyd9, .customHeader-3mDgmH .quickSelect-i8mQq1 .quickSelectValue-rmtkbe {
+  color: white !important;
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .container-2O1UgZ .item-1BCeuB[class~="selectedBrand-1AtwYE"] {
+  background-color: rgb(255, 255, 255, 0.2);
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .container-2oNtJn {
+  box-shadow: 0px 0px 5px gray !important;
+  background-color: rgb(255, 255, 255, 0.2) !important;
 }
 
 .container-2nx-BQ[class~="checked-25WXMf"], .bd-switch input:checked+.bd-switch-body {
