@@ -736,16 +736,16 @@ code.inline {
 }
 
 /* Network status menu */
-#popout_10479 .container-1ILvLB .graphContainer-3Txdak {
-  background-color: rgba(0, 0, 0, 0.2);
+.layer-2aCOJ3 .container-1ILvLB .graphContainer-3Txdak {
+  background-color: rgba(0, 0, 0, 0.2) !important;
 }
-#popout_10479 .container-1ILvLB {
-  background-color: rgba(0, 0, 0, 0.3);
+.layer-2aCOJ3 .container-1ILvLB {
+  background-color: rgba(0, 0, 0, 0.3) !important;
   backdrop-filter: blur(10px);
   border: 2px solid var(--generalColor);
   box-shadow: 0px 0px 5px var(--generalColor);
 }
-#popout_10479 .container-1ILvLB .popoutText-3NRmTw {
+.layer-2aCOJ3 .container-1ILvLB .popoutText-3NRmTw {
   color: white;
 }
 
