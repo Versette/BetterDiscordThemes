@@ -765,14 +765,17 @@ code.inline {
 }
 
 /* Sharing Screen Viewers Menu */
-.scroller-3b1p7z {
+.layerContainer-2v_Sit .scroller-3b1p7z {
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
   border: 2px solid var(--generalColor);
   box-shadow: 0px 0px 5px var(--generalColor);
 }
-.scroller-3b1p7z .memberListHeader-1V_jWz {
+.layerContainer-2v_Sit .scroller-3b1p7z .memberListHeader-1V_jWz {
   color: white;
+}
+.layerContainer-2v_Sit .scroller-3b1p7z .memberListItem-3V-x8Q:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Network status menu */
