@@ -561,7 +561,7 @@ code.inline {
   backdrop-filter: blur(10px);
   background-size: cover;
   box-shadow: 0px 0px 5px gray;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 .footer-3naVBw {
   background-color: transparent;
@@ -674,9 +674,6 @@ code.inline {
   border-color: var(--generalColor);
   border-width: 2px;
   box-shadow: 0px 0px 5px var(--generalColor) !important;
-}
-.focusLock-2tveLW[aria-labelledby] .tile-3POX2m .flex-2S1XBF .flex-2S1XBF:hover {
-  /* Add glowing generalColor outline, TBD */
 }
 .focusLock-2tveLW[aria-labelledby] .footer-31IekZ {
   border-top: 2px solid rgba(128, 128, 128, 0.2);
@@ -820,7 +817,7 @@ code.inline {
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(5px);
 }
-.button-f2h6uQ[class~="colorBrand-I6CyqQ"]:not(.button-12Fmur):not(.button-1kija8):not(.lookBlank-21BCro), .button-f2h6uQ[class~="fieldButton-14lHv"], .fieldList-in8WkP button:not([class~="lookLink-15mFoz"]) {
+.button-f2h6uQ[class~="colorBrand-I6CyqQ"]:not(.button-12Fmur):not(.button-1kija8):not(.lookBlank-21BCro), .button-f2h6uQ[class~="fieldButton-14lHv"], .fieldList-in8WkP button:not([class~="lookLink-15mFoz"]), .ttsPreviewWrapper-1d5bI6 .button-f2h6uQ {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-style: solid;
   border-color: var(--generalColor);
@@ -843,6 +840,70 @@ code.inline {
 .colorStandard-1Xxp1s {
   color: white !important;
   text-shadow: 0px 0px 5px black;
+}
+.select-1Ia3hD {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(5px);
+}
+.cameraWrapper-3a7Ngv {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.preview-3k9WhO, .preview-QJ3OG3 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.preview-3k9WhO .previewMessage-2g_aBv {
+  background-color: transparent;
+}
+.content-2t8mBc .guild-2Fq4I5 .guildHeader-1EPPBS {
+  background-color: rgba(24, 24, 24, 0.692);
+  backdrop-filter: blur(5px);
+}
+.content-2t8mBc .guild-2Fq4I5 .guildSubscriptionSlots-1i_C21 {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(5px);
+}
+.content-2t8mBc .guild-2Fq4I5 .guildHeaderBackground-2xMDZT {
+  display: none;
+}
+.content-2t8mBc .guilds-XTTuu3 .cardWrapper-1bSePP {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+}
+.content-2t8mBc .guilds-XTTuu3 .cardWrapper-1bSePP .circleOverlay-8mT02H .gemIndicatorContainer-PqApbX {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.content-3dHeLs .paymentBanner-1PHefn, .content-3dHeLs .noItemsCard-5EOcCl, .content-3dHeLs .billingInformation-2bXmfE, .content-3dHeLs .detailsBlock-24pLFz {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(5px);
+}
+.content-3dHeLs .paymentBanner-1PHefn .paymentBannerText-2qCsbh {
+  color: white !important;
+}
+.profileBannerPreview-3mLIdO {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px);
+  background-size: cover;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 10px;
+}
+.backgroundOptionSelected-3J38oq .backgroundOptionRing-1vvQ0C {
+  border-color: var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+.children-1xdcWE .promotionCard-mo7ClH {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(5px);
+}
+.activeGame-1OdxzI, .notDetected-M3Ghh2 {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(5px);
+}
+.children-1xdcWE .accountList-Wii_T5 {
+  background-color: rgba(24, 24, 24, 0.692) !important;
+  backdrop-filter: blur(5px);
+}
+.children-1xdcWE .accountList-Wii_T5 .accountBtnInner-3ttD-i {
+  background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
 .container-2nx-BQ[class~="checked-25WXMf"], .bd-switch input:checked+.bd-switch-body {
