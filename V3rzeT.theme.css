@@ -445,6 +445,73 @@ code.inline {
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
+/* Unread Mail Popout */
+.layerContainer-2v_Sit .layer-2aCOJ3 .recentMentionsPopout-2bI1ZN {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 0px 5px gray !important;
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .recentMentionsPopout-2bI1ZN .tabBar-1qdMr5 .selected-g-kMVV {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .recentMentionsPopout-2bI1ZN .container-iA3Qrz .channelHeader-DFRX8q {
+  background-color: rgba(24, 24, 24, 0.6);
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .recentMentionsPopout-2bI1ZN .container-iA3Qrz .messageContainer-3VTXBC {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .recentMentionsPopout-2bI1ZN .tertiary-1e-lAP, .layerContainer-2v_Sit .layer-2aCOJ3 .recentMentionsPopout-2bI1ZN .secondary-2bzKEX {
+  background-color: rgba(25, 25, 25, 0.4) !important;
+}
+
+/* Thread Popup */
+.layerContainer-2v_Sit .layer-2aCOJ3 .browser-mnQ1T7 {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 5px var(--border-Accent-Color) !important;
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .browser-mnQ1T7 .header-3_zmOb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .browser-mnQ1T7 .header-3_zmOb .searchBox-3IjAC1 {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0px 0px 5px var(--border-Accent-Color);
+  color: white !important;
+}
+
+/* Open URL Warning Popup */
+.layerContainer-2v_Sit .focusLock-2tveLW .container-KJ38dt .form-2oOOG9 {
+  border: 2px solid var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
+  border-radius: 8px;
+}
+.layerContainer-2v_Sit .focusLock-2tveLW .container-KJ38dt .form-2oOOG9 .footer-31IekZ {
+  background-color: transparent;
+}
+.layerContainer-2v_Sit .focusLock-2tveLW .container-KJ38dt .form-2oOOG9 .minorContainer-1tix62 .text-xs-normal-3SiVjE {
+  color: white;
+}
+.layerContainer-2v_Sit .focusLock-2tveLW .container-KJ38dt .form-2oOOG9 .button-f2h6uQ {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+  backdrop-filter: blur(5px);
+}
+.layerContainer-2v_Sit .focusLock-2tveLW .container-KJ38dt .form-2oOOG9 strong {
+  font-weight: bold;
+}
+
+/* Stream Window Popout Overlay */
+.pictureInPicture-1GQX91 .pictureInPictureWindow-3ms5Zy {
+  border: 2px solid var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+}
+
 /* Message Style */
 .username-h_Y3Us {
   font-weight: 600;
@@ -584,6 +651,16 @@ code.inline {
 .layerContainer-2v_Sit .tooltipPointer-3L49xb {
   /* This is the server name bubble left triangle that makes it look like a message. Removed because I didn't find out how to change it's color, and it's probably useless because of the border anyway */
   display: none;
+}
+
+/* Emote Info Popout */
+.layerContainer-2v_Sit .layer-2aCOJ3 .popoutContainer-2wbmiM {
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px gray;
+  backdrop-filter: blur(15px);
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .popoutContainer-2wbmiM .guildSection-2Zyzy8 {
+  background-color: transparent;
 }
 
 /* User Popout */
