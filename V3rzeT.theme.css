@@ -512,6 +512,20 @@ code.inline {
   box-shadow: 0px 0px 5px var(--generalColor) !important;
 }
 
+/* Stream Preview */
+.layerContainer-2v_Sit .layer-2aCOJ3 .streamPreviewWrapper-1O-B1g .streamPreview-I7itZ6, .layerContainer-2v_Sit .layer-2aCOJ3 .streamPreviewWrapper-1O-B1g .previewImage-2bOVD-, .layerContainer-2v_Sit .layer-2aCOJ3 .streamPreviewWrapper-1O-B1g .previewContainer-35LFgt {
+  background-color: transparent;
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .streamPreviewWrapper-1O-B1g .streamPreview-I7itZ6 {
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px gray;
+  text-shadow: 0px 0px 5px black;
+  backdrop-filter: blur(5px);
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .streamPreviewWrapper-1O-B1g .text-sm-normal-3Zj3Iv {
+  color: white !important;
+}
+
 /* Message Style */
 .username-h_Y3Us {
   font-weight: 600;
