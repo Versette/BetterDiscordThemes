@@ -20,6 +20,7 @@
     --color-tertiary: transparent !important;
 
     --background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://i.imgur.com/oRRZNGd.png');
+    /* --background: url('https://i.imgur.com/oRRZNGd.png'); */
     --chat-transparency: 0.7;
     --sides-transparency: 0.5;
     --sides-blur: 3px;
@@ -232,6 +233,11 @@ code.inline {
 }
 .iconServer-GeSR0b {
   color: red;
+}
+
+/* Server Invite Popup */
+.layerContainer-2v_Sit .focusLock-2tveLW .container-1Gt1iQ .contentWrapper-3oy4Xo {
+  background-color: transparent;
 }
 
 /* Voice Channel People Count Transparency stuff */
