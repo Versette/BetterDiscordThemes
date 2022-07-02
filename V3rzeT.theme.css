@@ -1138,3 +1138,7 @@ code.inline {
   font-weight: bold;
   color: white;
 }
+/* Copier by Strencher */
+.copr-button .contents-3ca1mk {
+  color: var(--generalColor) !important;
+}
