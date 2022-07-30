@@ -1,9 +1,12 @@
 /**
-  * @name Resize Stuff
-  * @author V3rzeT
-  * @description Resizes some stuff that annoy me, and just has general sizing changes
-  * @version 1.0
-*/
+ * @name Resize Stuff
+ * @version 1.0
+ * @description Resizes some stuff that annoy me, and just has general sizing changes
+ * @author V3rzeT
+ * 
+ * @website http://github.com/V3rzeT
+ * @source https://github.com/V3rzeT/BetterDiscordThemes/blob/main/ResizeStuff.theme.css
+ */
 
 /* Bigger Sidebar */
 .sidebar-1tnWFu {
@@ -11,9 +14,10 @@
 }
 
 /* Bigger Status/Activity Text Field (to fit sidebar) */
-.interactive-1vLZ_I {
+.sidebar-1tnWFu .interactive-1vLZ_I {
   width: 155% !important;
 }
+
 /* Idk what is wrong but need to change containers for sure */
 /* .channel-1Shao0, .container-32HW5s {
   width: 1000px !important;
