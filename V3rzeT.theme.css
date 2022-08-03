@@ -763,6 +763,10 @@ code.inline {
 .headerText-1-WmDq div {
   color: white !important;
 }
+/* Nitro banner Ad Nonsense removal, the nitro icon on the top right is more than enough imo */
+.userPopout-2j1gM4 .wrapper-1z1z-S {
+  display: none !important;
+}
 
 /* Mention */
 .mentioned-Tre-dv {
