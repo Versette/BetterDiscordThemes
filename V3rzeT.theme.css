@@ -182,7 +182,8 @@ code.inline {
 
 /* Bottom Left User Panel */
 .panels-3wFtMD {
-  background-color: rgba(255, 255, 255, 0.03);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 /* Server Member Panel */
