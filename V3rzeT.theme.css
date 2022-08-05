@@ -100,6 +100,14 @@
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+/* Nitro Ad Removal */
+.upsellBanner-1tVKtW, .upsellContainer-3qKRln {
+  display: none !important;
+}
+.userPopout-2j1gM4 .wrapper-1z1z-S {
+  display: none !important;
+}
+
 /* Quick Channel Finder */
 .quickswitcher-pKcM9U {
   border-style: solid !important;
@@ -781,10 +789,6 @@ code.inline {
 .headerText-1-WmDq div {
   color: white !important;
 }
-/* Nitro banner Ad Nonsense removal, the nitro icon on the top right is more than enough imo */
-.userPopout-2j1gM4 .wrapper-1z1z-S {
-  display: none !important;
-}
 
 /* Emote, GIF, Sticker Menu */
 .layerContainer-2v_Sit .positionLayer-1cndvf .positionContainer-dMArNx, .layerContainer-2v_Sit .positionLayer-1cndvf .drawerSizingWrapper-1txdWG {
@@ -947,10 +951,6 @@ code.inline {
 .content-2a4AW9 .container-3EtAkD {
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(5px);
-}
-/* Nitro Ad Removal */
-.qualitySettingsContainer-2LjkfM .upsellBanner-1tVKtW {
-  display: none !important;
 }
 
 /* Pinned Messages Popout */
