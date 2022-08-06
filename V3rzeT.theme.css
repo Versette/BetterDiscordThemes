@@ -194,6 +194,11 @@ code.inline {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
+/* Public Server Icon */
+.communityInfoContainer-1dMVpU .communityInfo-3YsNIn .communityInfoPill-2Mll66 {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
 /* Server Member Panel */
 .membersWrap-3NUR2t {
   background-color: rgba(255, 255, 255, 0.03);
