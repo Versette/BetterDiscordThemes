@@ -1,7 +1,7 @@
 /**
  * @name Resize Stuff
  * @version 1.0
- * @description Resizes some stuff that annoy me, and just has general sizing changes
+ * @description Resizes some stuff that annoys me, and just has general sizing changes
  * @author V3rzeT
  * 
  * @website http://github.com/V3rzeT
@@ -13,12 +13,14 @@
   width: 20%;
 }
 
-/* Bigger Status/Activity Text Field (to fit sidebar) */
-.sidebar-1tnWFu .interactive-1vLZ_I {
-  width: 155% !important;
+/* Align Bottom Panels Right Container to Right */
+.sidebar-1tnWFu .panels-3wFtMD .container-YkUktl .flex-2S1XBF {
+  margin-left: auto;
+  margin-right: 0;
 }
 
-/* Idk what is wrong but need to change containers for sure */
-/* .channel-1Shao0, .container-32HW5s {
-  width: 1000px !important;
-} */
+/* Bigger Channel size (to fit sidebar) */
+.sidebar-1tnWFu .channel-1Shao0 {
+  max-width: unset;
+  margin-right: 8px;
+}
