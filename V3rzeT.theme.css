@@ -260,6 +260,11 @@ code.inline {
   background-color: transparent;
 }
 
+/* Server Voice Channels */
+.sidebar-1tnWFu .scroller-1ox3I2 {
+  padding-right: 5px !important;
+}
+
 /* Voice Channel People Count Transparency stuff */
 .content-1gYQeQ .children-1MGS9G .channelInfo-3jN1ay  {
   border-width: 2px;
