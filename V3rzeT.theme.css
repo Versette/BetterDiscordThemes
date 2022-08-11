@@ -36,6 +36,11 @@
   background-color: rgba(255, 255, 255, 0.03);
 }
 
+/* LeftEST sidebar */
+.guilds-2JjMmN ul {
+  
+}
+
 /* DM Chats Panel */
 .privateChannels-oVe7HL, .sidebar-1tnWFu .container-1NXEtd {
   background-color: rgba(255, 255, 255, 0.03);
@@ -365,6 +370,32 @@ code.inline {
   box-shadow: none !important;
   border: none !important;
 } */
+
+/* Invite Embed */
+.container-2sjPya .wrapper-1HIH0j {
+  background-color: transparent !important;
+  border: 2px solid var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* Audio Message Attachment */
+.messageAttachment-CZp8Iv .wrapperAudio-1Bzv_Z {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+.messageAttachment-CZp8Iv .wrapperAudio-1Bzv_Z .metadataName-1KMZtB, .messageAttachment-CZp8Iv .wrapperAudio-1Bzv_Z .metadataSize-2A2s1T {
+  color: white !important;
+}
+.messageAttachment-CZp8Iv .wrapperAudio-1Bzv_Z .audioControls-3fmemK {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: transparent;
+}
+.messageAttachment-CZp8Iv .wrapperAudio-1Bzv_Z .mediaBarProgress-38I317, .messageAttachment-CZp8Iv .wrapperAudio-1Bzv_Z .mediaBarProgress-38I317::before, .messageAttachment-CZp8Iv .wrapperAudio-1Bzv_Z .mediaBarProgress-38I317::after, .messageAttachment-CZp8Iv .wrapperAudio-1Bzv_Z .mediaBarGrabber-FvJKJg {
+  background-color: var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
 
 /* Server Color Stuff */
 .channelName-3KPsGw {
