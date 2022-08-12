@@ -36,9 +36,18 @@
   background-color: rgba(255, 255, 255, 0.03);
 }
 
-/* LeftEST sidebar */
+/* Guilds Sidebar */
+.guilds-2JjMmN {
+  padding-right: 5px;
+}
 .guilds-2JjMmN ul {
-  
+  margin-right: -5px;
+}
+.guilds-2JjMmN .guildSeparator-a4uisj {
+  background-color: rgba(255, 255, 255, 0.17);
+  width: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 /* DM Chats Panel */
@@ -218,12 +227,38 @@ code.inline {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
+/* Server Rules Popout */
+.focusLock-2tveLW .container-2E0bff .vertical-3aLnqW, .focusLock-2tveLW .container-2E0bff .modal-2TOYtq {
+  background-color: transparent !important;
+}
+.focusLock-2tveLW .container-2E0bff .formFieldWrapper-2LV3S6 {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+.focusLock-2tveLW .container-2E0bff .formFieldWrapper-2LV3S6 .text-md-normal-304U3g {
+  color: white !important;
+}
+.checkboxWrapper-2fDzaA .checkbox-f1HnKB {
+  border: 1px solid var(--generalColor) !important;
+  box-shadow: 0px 0px 5px var(--generalColor);
+  background-color: transparent !important;
+}
+
 /* Server Member Panel */
 .membersWrap-3NUR2t {
   background-color: rgba(255, 255, 255, 0.03);
 }
 .desaturateUserColors-1O-G89 span {
   color: white !important;
+}
+
+/* Loading Spinner */
+.spinner-2RT7ZC {
+  background-color: transparent !important;
+}
+.spinner-2RT7ZC .wanderingCubesItem-3Us-UG {
+  background-color: var(--generalColor) !important;
+  box-shadow: 0px 0px 5px var(--generalColor);
+  border-radius: 50px;
 }
 
 /* Role Display Plugin Background fix */
@@ -377,6 +412,17 @@ code.inline {
   border: 2px solid var(--generalColor);
   box-shadow: 0px 0px 5px var(--generalColor);
   background-color: rgba(0, 0, 0, 0.15);
+}
+.container-2sjPya .wrapper-1HIH0j .button-2b4VEQ {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+  backdrop-filter: blur(5px);
+}
+.container-2sjPya .wrapper-1HIH0j .button-2b4VEQ:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Audio Message Attachment */
@@ -1313,4 +1359,18 @@ code.inline {
 /* TopRoleEverywhere by DevilBro */
 .containerDefault-YUSmu3 .voiceUser-3nRK-K .role-2TIOKu {
   margin-right: 8px;
+}
+/* OnlineFriendCount by Zerthox */
+.friendsOnline-2JkivW {
+  margin-top: 5px;
+  color: white;
+  line-height: 9px;
+}
+/* ServerCounter by DevilBro */
+.serverCount-FsTTs1 {
+  color: white;
+  font-size: 10px;
+  line-height: 13px;
+  margin-bottom: 5px;
+  text-decoration-thickness: auto;
 }
