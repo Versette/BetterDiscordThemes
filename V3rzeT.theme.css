@@ -221,6 +221,9 @@ code.inline {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   background-color: rgba(255, 255, 255, 0.05);
 }
+.panels-3wFtMD .rtcConnectionStatus-c5A6Av .labelWrapper-1HofQ- button:hover {
+  background-color: transparent !important;
+}
 
 /* Public Server Icon */
 .communityInfoContainer-1dMVpU .communityInfo-3YsNIn .communityInfoPill-2Mll66 {
