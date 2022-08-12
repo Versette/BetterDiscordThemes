@@ -24,3 +24,9 @@
   max-width: unset;
   margin-right: 8px;
 }
+
+/* Bigger Voice status thing */
+.inner-llGtyq .rtcConnectionStatus-c5A6Av {
+  /* No idea how else to fix it (for now) */
+  width: 999px;
+}
