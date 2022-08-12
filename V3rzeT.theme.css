@@ -589,10 +589,16 @@ code.inline {
 }
 
 /* Channel Selection */
-.selected-2TbFuo .content-1gYQeQ, .selected-3veCBZ {
-  background-color: rgba(255, 255, 255, 0.12) !important;
+.containerDefault-YUSmu3 .modeSelected-3DmyhH .content-1gYQeQ {
+  background-color: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
 }
-.content-1gYQeQ:hover, .interactive-1vLZ_I:hover {
+.selected-2TbFuo .content-1gYQeQ, .selected-3veCBZ {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+.content-1gYQeQ:hover, .interactive-1vLZ_I:hover, .containerDefault-YUSmu3 .modeSelected-3DmyhH .content-1gYQeQ:hover {
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
