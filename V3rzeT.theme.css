@@ -37,6 +37,9 @@
     filter: none;
   }
 }
+@keyframes rainbowAnim {
+  from { background-position: 200% 0; }
+}
 .wordmarkWindows-2dq6rw svg {
   color: white;
   animation-name: discordLogoAnim;
