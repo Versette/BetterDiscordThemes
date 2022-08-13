@@ -52,12 +52,13 @@
 }
 
 /* "Old" (good) Discord Logo */
-/* .wordmarkWindows-2dq6rw {
+.wordmarkWindows-2dq6rw {
   margin-left: 9px;
   margin-top: 4px;
-  width: 65.477px;
-  height: 16px;
+  width: 32.739px;
+  height: 8px;
   -webkit-mask-image: url(https://v3rzet.github.io/BetterDiscordThemes/discord-logo-text_og.svg);
+  -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
   background: white;
   animation-name: oldDiscordLogoAnim;
@@ -68,27 +69,28 @@
 }
 .wordmarkWindows-2dq6rw svg {
   display: none;
-} */
+}
 
 /* New Discord Logo */
-.wordmarkWindows-2dq6rw svg {
+/* .wordmarkWindows-2dq6rw svg {
   color: white;
   animation-name: newDiscordLogoAnim;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
   animation-timing-function: ease-in-out;
-}
+} */
 
 /* Rainbow Anim Stuff, uncomment this, and comment the other anim stuff to use */
 /* And yes, I know that I could have just made a GIF of this and used it as background image, but  n o    I won't xd */
 /* .wordmarkWindows-2dq6rw {
-  margin-left: 9px;
-  margin-top: 4px;
-  width: 65.477px;
-  height: 16px;
+  margin-left: 10px;
+  margin-top: 7px;
+  width: 32.739px;
+  height: 8px;
   min-height:100%;
   -webkit-mask-image: url(https://v3rzet.github.io/BetterDiscordThemes/discord-logo-text_og.svg);
+  -webkit-mask-size: contain;
   -webkit-mask-repeat: no-repeat;
   background: 
    linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%) 
