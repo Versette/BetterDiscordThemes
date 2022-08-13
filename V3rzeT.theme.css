@@ -404,6 +404,20 @@ code.inline {
   box-shadow: 0px 0px 5px var(--generalColor);
   border-radius: 50%;
 }
+.loadingPopout-1feYe_ {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+}
+.loadingPopout-1feYe_ .spinningCircle-CmRLnP .path-lhsLSV {
+  stroke: var(--generalColor) !important;
+  /* filter: drop-shadow(0px 0px 5px var(--generalColor)); */
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+
+/* Loading Popout */
+.layerContainer-2v_Sit .popoutContainer-2wbmiM .popoutLoadingBackground-qs-T5i .popoutLoadingForeground-3xnRkg {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.1)) !important;
+}
 
 /* Role Display Plugin Background fix */
 .role-2TIOKu {
@@ -1162,16 +1176,20 @@ code.inline {
   backdrop-filter: blur(5px);
 }
 
-/* Pinned Messages Popout */
-.layerContainer-2v_Sit .layer-2aCOJ3 .header-1w9Q93, .layerContainer-2v_Sit .layer-2aCOJ3 .footer-5ji8u1 {
-  background-color: transparent;
+/* callContainer Users */
+.callContainer-HtHELf .row-jreWvj .tile-2Dr6M1 {
+  filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));
 }
-.layerContainer-2v_Sit .layer-2aCOJ3 .messagesPopoutWrap-3zryHW {
-  background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(5px);
+.callContainer-HtHELf .row-jreWvj .root-u9h3Ui {
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
 }
-.messageGroupWrapper-1jf_7C {
-  background-color: rgba(0, 0, 0, 0.4);
+.callContainer-HtHELf .row-jreWvj .button-f2h6uQ:not([class~="outerButton-q7U2Mf"]), .callContainer-HtHELf .row-jreWvj .outerButton-q7U2Mf .contents-3ca1mk {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
 }
 
 /* Sharing Screen Viewers Menu */
@@ -1200,6 +1218,18 @@ code.inline {
 }
 .layer-2aCOJ3 .container-1ILvLB .popoutText-3NRmTw {
   color: white;
+}
+
+/* Pinned Messages Popout */
+.layerContainer-2v_Sit .layer-2aCOJ3 .header-1w9Q93, .layerContainer-2v_Sit .layer-2aCOJ3 .footer-5ji8u1 {
+  background-color: transparent;
+}
+.layerContainer-2v_Sit .layer-2aCOJ3 .messagesPopoutWrap-3zryHW {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+}
+.messageGroupWrapper-1jf_7C {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Scrollbar Stuff */
