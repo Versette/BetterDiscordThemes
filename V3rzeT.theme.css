@@ -51,6 +51,16 @@
   from { background-position: 200% 0; }
 }
 
+/* New Discord Logo */
+/* .wordmarkWindows-2dq6rw svg {
+  color: white;
+  animation-name: newDiscordLogoAnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+} */
+
 /* "Old" (good) Discord Logo */
 .wordmarkWindows-2dq6rw {
   margin-left: 10px;
@@ -70,16 +80,6 @@
 .wordmarkWindows-2dq6rw svg {
   display: none;
 }
-
-/* New Discord Logo */
-/* .wordmarkWindows-2dq6rw svg {
-  color: white;
-  animation-name: newDiscordLogoAnim;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  animation-timing-function: ease-in-out;
-} */
 
 /* Rainbow Anim Stuff, uncomment this, and comment the other anim stuff to use */
 /* And yes, I know that I could have just made a GIF of this and used it as background image, but  n o    I won't xd */
@@ -458,10 +458,13 @@ code.inline {
   color: white;
 }
 
-/* Mute Mic Icon Fix */
+/* Mute Mic Icon */
 .icon-N9JZb6 {
   color: white;
   filter: drop-shadow(0px 0px 5px white);
+}
+.iconServer-GeSR0b {
+  filter: drop-shadow(0px 0px 5px red);
 }
 .strikethrough-2G7pYT {
   color: red;
@@ -470,6 +473,7 @@ code.inline {
 .iconServer-GeSR0b {
   color: red;
 }
+
 
 /* Server Invite Popup */
 .layerContainer-2v_Sit .focusLock-2tveLW .container-1Gt1iQ .contentWrapper-3oy4Xo {
