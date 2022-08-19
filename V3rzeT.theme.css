@@ -689,7 +689,16 @@ code.inline {
 .container-24rGVp .bar-wDIGjg .text-xs-medium-2LRpEj, .unreadBar-elBRZx .text-2GsXbW {
   color: white !important;
 }
+
 /* Other unread messages bar */
+.unreadMentionsBar-ZXXoOH {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: var(--generalColor);
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 0px 0px 5px var(--generalColor);
+  backdrop-filter: blur(5px);
+}
 .newMessagesBar-1hF-9G, .jumpToPresentBar-1cEnH0 {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: var(--generalColor);
