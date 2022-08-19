@@ -678,7 +678,7 @@ code.inline {
 }
 
 /* Unread Messages bar */
-.container-24rGVp .bar-wDIGjg {
+.container-24rGVp .bar-wDIGjg, .unreadBar-elBRZx {
   background-color: rgba(0, 0, 0, 0.5);
   border-color: var(--generalColor);
   border-width: 2px;
@@ -686,7 +686,7 @@ code.inline {
   box-shadow: 0px 0px 5px var(--generalColor);
   backdrop-filter: blur(5px);
 }
-.container-24rGVp .bar-wDIGjg .text-xs-medium-2LRpEj {
+.container-24rGVp .bar-wDIGjg .text-xs-medium-2LRpEj, .unreadBar-elBRZx .text-2GsXbW {
   color: white !important;
 }
 /* Other unread messages bar */
