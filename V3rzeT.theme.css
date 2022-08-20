@@ -659,8 +659,20 @@ code.inline {
 /* and */
 /* Chat List Nickname Color Fix */
 .usernameFont-2oJxoI, .name-2m3Cms {
-  color: white;
-  font-weight: normal;
+  color: white !important;
+  font-weight: medium;
+  text-shadow: 0px 0px 5px black;
+}
+/* Don't look here! */
+.content-1Tgc42 .userAvatar-3Hwf1F[style*="854136709318311936"] + .usernameFont-2oJxoI, .content-1Tgc42 .userAvatar-3Hwf1F[style*="898329865890201691"] + .usernameFont-2oJxoI {
+  color: var(--generalColor) !important;
+  font-weight: bolder !important;
+  filter: drop-shadow(0px 0px 5px var(--generalColor));
+}
+.scroller-WSmht3 .channel-1Shao0[data-user-id="854136709318311936"] .content-66wMin .name-2m3Cms .overflow-1wOqNV, .scroller-WSmht3 .channel-1Shao0[data-user-id="898329865890201691"] .content-66wMin .name-2m3Cms .overflow-1wOqNV {
+  color: var(--generalColor) !important;
+  font-weight: bolder !important;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
 }
 
 /* Bottom Left Panel Text */
