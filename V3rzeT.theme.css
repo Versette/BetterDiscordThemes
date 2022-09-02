@@ -1245,6 +1245,9 @@ code.inline {
   border-color: var(--generalColor);
   border-width: 2px;
   box-shadow: 0px 0px 5px var(--generalColor) !important;
+  margin-left: 35px;
+  margin-top: -20px !important;
+  position: relative;
 }
 .wrapper-3t3Yqv .controlButton-2PMNom .contextMenuNub-NuTZ_U:hover > .directionDown-2w0MZz {
   filter: drop-shadow(0px 0px 5px white) !important;
