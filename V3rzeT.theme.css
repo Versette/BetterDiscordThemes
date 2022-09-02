@@ -26,6 +26,11 @@
     --sides-blur: 3px;
 }
 
+/* Popup Background */
+.backdrop-2ByYRN {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
 /* Discord Logo Animation */
 @keyframes oldDiscordLogoAnim {
   from {
@@ -143,6 +148,7 @@
 .expandedFolderBackground-1kSAf6 {
   background-color: rgba(255, 255, 255, 0.2);
 }
+
 /* TODO, fix text cutoff on right (padding not cutting text off) */
 .wrapper-3kah-n:not([data-list-item-id="guildsnav___home"]) .childWrapper-1j_1ub {
   background-color: transparent;
