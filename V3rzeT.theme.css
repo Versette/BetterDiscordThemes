@@ -1222,6 +1222,34 @@ code.inline {
   box-shadow: 0px 0px 5px var(--generalColor) !important;
 }
 
+/* callContainer Action Buttons */
+.wrapper-3t3Yqv .controlButton-2PMNom button, .wrapper-3t3Yqv button[class~="controlButton-2PMNom"] {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+  backdrop-filter: blur(5px);
+}
+.wrapper-3t3Yqv .controlButton-2PMNom svg {
+  overflow: visible !important;
+}
+.wrapper-3t3Yqv .controlButton-2PMNom .centerIcon-JYpTUi path, .wrapper-3t3Yqv .controlButton-2PMNom .directionDown-2w0MZz {
+  fill: white !important;
+  filter: drop-shadow(0px 0px 2px white) !important;
+  color: white;
+}
+.wrapper-3t3Yqv .controlButton-2PMNom .contextMenuNub-NuTZ_U {
+  background-color: black;
+  border-style: solid;
+  border-color: var(--generalColor);
+  border-width: 2px;
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
+}
+.wrapper-3t3Yqv .controlButton-2PMNom .contextMenuNub-NuTZ_U:hover > .directionDown-2w0MZz {
+  filter: drop-shadow(0px 0px 5px white) !important;
+}
+
 /* Sharing Screen Viewers Menu */
 .layerContainer-2v_Sit .scroller-3b1p7z {
   background-color: rgba(0, 0, 0, 0.3);
@@ -1502,7 +1530,7 @@ code.inline {
 .VoiceActivity-voiceicon-icon:hover{
   background-color: rgba(255, 255, 255, 0.3);
 }
-.VoiceActivity-voicepopoutsection-button {
+.VoiceActivity-modalactivityitem-button, .VoiceActivity-voicepopoutsection-button {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-style: solid;
   border-color: var(--generalColor);
