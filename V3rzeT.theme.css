@@ -1049,18 +1049,18 @@ code.inline {
   color: white;
   text-shadow: 0px 0px 5px black !important;
 }
-.reaction-3vwAF2, .reactionMe-1PwQAc {
+.reaction-3vwAF2 {
+  background-color: transparent !important;
+  border-style: solid !important;
+  border-color: var(--border-Accent-Color) !important;
+  border-width: 2px !important;
+  box-shadow: 0px 0px 5px var(--border-Accent-Color) !important;
+}
+.reactionMe-1PwQAc {
   background-color: transparent !important;
   border-style: solid !important;
   border-color: var(--generalColor) !important;
   border-width: 2px !important;
-  box-shadow: 0px 0px 5px var(--generalColor) !important;
-}
-.reaction-3vwAF2:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-color: var(--generalColor);
-  border-width: 2px;
   box-shadow: 0px 0px 5px var(--generalColor) !important;
 }
 .attachment-1PZZB2 {
