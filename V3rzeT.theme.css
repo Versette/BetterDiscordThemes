@@ -1181,14 +1181,25 @@ code.inline {
   background-color: transparent !important;
   max-width: 424px !important;
 }
+.layerContainer-2v_Sit .positionLayer-1cndvf .positionContainer-dMArNx .header-11eigE {
+  margin-top: 5px !important;
+}
 .layerContainer-2v_Sit .positionLayer-1cndvf .contentWrapper-3vHNP2 {
   background-color: rgba(0, 0, 0, 0.2) !important;
-  backdrop-filter: blur(10px) !important;
   background-size: cover;
   box-shadow: 0px 0px 5px gray;
   border-radius: 10px;
 }
-.layerContainer-2v_Sit .positionLayer-1cndvf .searchBar-2M9mRP, .layerContainer-2v_Sit .positionLayer-1cndvf .wrapper-n2dlvs .medium-13kyaW {
+.layerContainer-2v_Sit .positionLayer-1cndvf .contentWrapper-3vHNP2::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 8px;
+}
+.layerContainer-2v_Sit .positionLayer-1cndvf .searchBar-2M9mRP, .layerContainer-2v_Sit .positionLayer-1cndvf .searchBar-3aIzc-, .layerContainer-2v_Sit .positionLayer-1cndvf .wrapper-n2dlvs .medium-13kyaW {
   background-color: rgba(255, 255, 255, 0.08) !important;
   caret-color: white;
   color: white;
@@ -1198,17 +1209,31 @@ code.inline {
 .layerContainer-2v_Sit .positionLayer-1cndvf .header-1ULbqO, .layerContainer-2v_Sit .positionLayer-1cndvf .packHeader-w9jpYl {
   background-color: rgba(0, 0, 0, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px) !important;
 }
 .layerContainer-2v_Sit .positionLayer-1cndvf .categoryList-2qRrlj, .layerContainer-2v_Sit .positionLayer-1cndvf .categoryList-2GgCrD {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   background-color: transparent;
   padding-right: 5px !important;
 }
-.layerContainer-2v_Sit .positionLayer-1cndvf .categoryItemDefaultCategorySelected-2YeRUu, .layerContainer-2v_Sit .positionLayer-1cndvf .stickerCategory-2f6iSo[class*="Selected"] {
+.layerContainer-2v_Sit .stickerCategory-2f6iSo foreignObject[mask="url(#svg-mask-squircle)"] {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+.layerContainer-2v_Sit .positionLayer-1cndvf div[aria-posinset="0"] .stickerCategory-2f6iSo[class*="Selected"], .stickerCategoryGeneric-29JiZ2:hover, .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategory-3haEDq:hover {
+  padding: 2px;
   border: 2px solid var(--generalColor);
-  border-radius: 50px;
+  border-radius: 10px;
   box-shadow: 0px 0px 5px var(--generalColor);
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+.standardStickerShortcut-ObSns3, .unicodeShortcut-3N8oDe {
+  margin-bottom: -1px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px) !important;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.standardStickerShortcut-ObSns3 svg, .unicodeShortcut-3N8oDe svg, .stickerCategoryGenericIcon-3wumVD, .categoryIcon-2cYeku, .headerLabel-1g790w, .headerIcon-2Gk2OH, .contentWrapper-3vHNP2 button .contents-3ca1mk {
+  color: white;
 }
 .layerContainer-2v_Sit .positionLayer-1cndvf .inspector-DFKXwB {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -1633,10 +1658,10 @@ code.inline {
 .layerContainer-2v_Sit .layer-2aCOJ3 .container-2O1UgZ .item-1BCeuB[class~="selectedBrand-1AtwYE"] {
   background-color: rgb(255, 255, 255, 0.2);
 }
-.layerContainer-2v_Sit .layer-2aCOJ3 .container-2oNtJn {
+/* .layerContainer-2v_Sit .layer-2aCOJ3 .container-2oNtJn {
   box-shadow: 0px 0px 5px gray !important;
   background-color: rgb(255, 255, 255, 0.2) !important;
-}
+} */
 
 .container-2nx-BQ[class~="checked-25WXMf"], .bd-switch input:checked+.bd-switch-body {
   /* On Checkbox */
