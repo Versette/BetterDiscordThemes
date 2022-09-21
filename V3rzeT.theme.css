@@ -86,6 +86,17 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 
 .spamBanner-1auiob {position:relative} /* Message input when timed out */
 
+/* .channelTextArea-1FufC0 .attachedBars-2BCP3l, .channelTextArea-1FufC0 .replyBar-1oi75v {
+  background-color: transparent;
+}
+
+
+.channelTextArea-1FufC0 .attachedBars-2BCP3l .replyBar-1oi75v {
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 5px red;
+  overflow: visible !important;
+} */
+
 /* Embeds and invites */
 .invite-3uuHYQ {backdrop-filter:blur(var(--sides-blur))}
 .wrapper-1HIH0j, .embedFull-1HGV2S {background:rgba(transparent,var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
@@ -152,6 +163,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 /* Popup Background */
 .backdrop-2ByYRN {
   background-color: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(10px) !important;
 }
 
 /* Discord Logo Animation */
@@ -1160,7 +1172,7 @@ code.inline {
   border-color: rgba(0, 0, 0, 0.2);
   background-color: rgba(0, 0, 0, 0.2);
 }
-.connectedAccountContainer-SlCC-S {
+.connectedAccountContainer-3aLMHJ {
   background-color: rgba(0, 0, 0, 0.02);
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
 }
