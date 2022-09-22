@@ -86,16 +86,20 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 
 .spamBanner-1auiob {position:relative} /* Message input when timed out */
 
-/* .channelTextArea-1FufC0 .attachedBars-2BCP3l, .channelTextArea-1FufC0 .replyBar-1oi75v {
+.channelTextArea-1FufC0 .attachedBars-2BCP3l, .channelTextArea-1FufC0 .replyBar-1oi75v {
   background-color: transparent;
 }
 
-
 .channelTextArea-1FufC0 .attachedBars-2BCP3l .replyBar-1oi75v {
   backdrop-filter: blur(5px);
-  box-shadow: 0px 0px 5px red;
   overflow: visible !important;
-} */
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  margin-bottom: 5px;
+}
+
+.channelTextArea-1FufC0 .attachedBars-2BCP3l .replyBar-1oi75v .text-sm-normal-3Zj3Iv {
+  color: white !important;
+}
 
 /* Embeds and invites */
 .invite-3uuHYQ {backdrop-filter:blur(var(--sides-blur))}
