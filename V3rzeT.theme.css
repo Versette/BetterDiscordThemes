@@ -50,6 +50,16 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .applicationStore-2nk7Lo {background:transparent}
 .scroller-29cQFV {background:rgba(transparent,var(--chat-transparency))}
 
+/* Privacy Settings Popout */
+.focusLock-2tveLW .flex-3BkGQD {
+  background-color: transparent;
+}
+/* .focusLock-2tveLW .flex-3BkGQD button {
+  Todo fix this
+ 
+  align-self: center !important;
+} */
+
 /* Discovery */
 .sidebar-1tnWFu>.scrollerBase-_bVAAt {background:rgba(transparent,var(--sides-transparency))}
 #app-mount .pageWrapper-2PwDoS, #app-mount .scroller-RfJjkV {background:rgba(transparent,var(--chat-transparency))}
