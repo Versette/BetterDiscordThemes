@@ -56,7 +56,6 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 }
 /* .focusLock-2tveLW .flex-3BkGQD button {
   Todo fix this
- 
   align-self: center !important;
 } */
 
@@ -65,8 +64,11 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 #app-mount .pageWrapper-2PwDoS, #app-mount .scroller-RfJjkV {background:rgba(transparent,var(--chat-transparency))}
 
 /* Member list (chat, threads, groups, NSFW Warning, forums) */
-.members-3WRCEx, .members-3WRCEx>div, .membersWrap-3NUR2t, .tabs-1RhQha, .container-NkLXgf, .container-2o3qEW {background:transparent}
-.chatContent-3KubbW + div, .scroller-3KyaqJ + div, .container-3wLKDe + .container-2o3qEW {background:rgba(transparent,var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+.members-3WRCEx, .members-3WRCEx>div, .membersWrap-3NUR2t, .tabs-1RhQha, .container-NkLXgf, .container-2o3qEW {background:transparent !important}
+.chatContent-3KubbW + div, .scroller-3KyaqJ + div, .container-3wLKDe + .container-2o3qEW {background:rgba(transparent,var(--sides-transparency));backdrop-filter:blur(var(--sides-blur)) !important}
+.member-2gU6Ar {
+  background-color: transparent;
+}
 
 /* User panel */
 .panels-3wFtMD {background:rgba(var(--color-secondary-alt),var(--sides-transparency))}
