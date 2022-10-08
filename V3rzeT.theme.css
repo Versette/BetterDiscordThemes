@@ -1526,8 +1526,20 @@ code.inline {
 }
 
 /* Settings Stuff */
-.bd-addon-card .bd-addon-header {
-  background-color: rgba(24, 24, 24, 0.692);
+.group-LWHoGI {
+  border: 1px solid var(--border-Accent-Color);
+}
+.group-LWHoGI .item-4m-12I {
+  background-color: rgba(24, 24, 24, 0.4) !important;
+}
+.group-LWHoGI .item-4m-12I[class~="selected-3jieYB"] {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+.bd-addon-card .bd-addon-header, .card-2EUiNF, .settingCard-xZSDjS {
+  background-color: rgba(24, 24, 24, 0.692) !important;
+}
+.cardFolder-3H4uH4, .sidebarScrollable-2mW9Ls .scroller-3_YDR2 {
+  background-color: transparent !important;
 }
 .bd-addon-card {
   background-color: rgba(0, 0, 0, 0.4) !important;
