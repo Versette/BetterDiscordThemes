@@ -1378,18 +1378,30 @@ code.inline {
 }
 
 /* User Popout */
-.userProfileModalOuter-1FYL8T, .userProfileModalInner-3fh3QA, .body-_QAKrE, .userProfileModalOverlayBackground-8p3-eU, .topSection-1Khgkv, .userPopoutOuter-3AVBmJ, .userPopoutInner-1hXSeY, .userPopoutOverlayBackground-dKOOda {
-  /* background-color: transparent !important;
+.userProfileModalOuter-1FYL8T, .userProfileModalInner-3fh3QA, .body-_QAKrE, .userProfileModalOverlayBackground-8p3-eU, .topSection-1Khgkv, .root-2uUafN .userPopoutOuter-3AVBmJ, .userPopoutInner-1hXSeY, .userPopoutOverlayBackground-dKOOda {
   background: none !important;
-  backdrop-filter:unset !important; */
+  backdrop-filter:unset !important;
 }
-/* .userProfileModalInner-3fh3QA {
-  background-color: rgba(0, 0, 0, 0.2);
+.userPopoutInner-1hXSeY .scroller-1jBQYo::-webkit-scrollbar, .userPopoutInner-1hXSeY .scroller-1jBQYo::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+.layerContainer-2v_Sit .userPopoutOuter-3AVBmJ {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(15px);
+  border: 2px solid var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+.userProfileModalInner-3fh3QA::before {
+  display: none;
+}
+.userProfileModalOuter-1FYL8T {
+  background-color: rgba(0, 0, 0, 0.3) !important;
   backdrop-filter: blur(10px);
   background-size: cover;
   box-shadow: 0px 0px 5px gray;
   border-radius: 10px;
-} */
+  padding: 0px !important;
+}
 .footer-3naVBw {
   background-color: transparent;
 }
@@ -1410,7 +1422,7 @@ code.inline {
   background-color: transparent !important;
   backdrop-filter: blur(5px);
 }
-.root-8LYsGj {
+.root-2uUafN {
   border-style: solid;
   border-color: var(--generalColor);
   border-width: 2px;
@@ -1427,7 +1439,7 @@ code.inline {
 .userInfoText-2MFCmH {
   overflow: visible;
 }
-.userPopout-2j1gM4 .bodyTitle-2Az3VQ, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .headerText-3g1XK9, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .playTime-3fSgOm {
+.userPopout-2j1gM4 .bodyTitle-2Az3VQ, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .headerText-3g1XK9, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .playTime-3fSgOm, .root-2uUafN .textarea-_59yqs, .memberSinceContainer-3biwiY .defaultColor-1EVLSt, .discriminator-3_S3CG, .textarea-_59yqs, .scroller-1jBQYo .markup-eYLPri .defaultColor-1EVLSt, .customStatus-3Bvsdb {
   color: white !important;
   text-shadow: 0px 0px 5px black !important;
 }
@@ -1455,7 +1467,10 @@ code.inline {
   border-color: rgba(0, 0, 0, 0.2);
   background-color: rgba(0, 0, 0, 0.2);
 }
-.connectedAccountContainer-3aLMHJ {
+/* .connectedAccounts-1HaiEx, .tabBarContainer-2UG0vy {
+  border-color: var(--border-Accent-Color) !important;
+} */
+.connectedAccountContainer-2TWiXT {
   background-color: rgba(0, 0, 0, 0.02);
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
 }
@@ -2022,7 +2037,7 @@ code.inline {
 .VoiceActivity-voiceicon-icon:hover{
   background-color: rgba(255, 255, 255, 0.3);
 }
-.VoiceActivity-modalactivityitem-button, .VoiceActivity-voicepopoutsection-button {
+.VoiceActivity-voiceprofilesection-button, .VoiceActivity-voiceprofilesection-button {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-style: solid;
   border-color: var(--generalColor);
