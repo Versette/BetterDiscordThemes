@@ -1719,6 +1719,10 @@ code.inline {
 .wrapper-3t3Yqv .controlButton-2PMNom .contextMenuNub-NuTZ_U:hover > .directionDown-2w0MZz {
   filter: drop-shadow(0px 0px 5px white) !important;
 }
+.buttonContainer-1sjtPU .controlButton-2PMNom, .buttonContainer-1sjtPU .dot-SviNJC {
+  /* Removal of rocket activities icon */
+  display: none !important;
+}
 
 /* Sharing Screen Viewers Menu */
 .layerContainer-2v_Sit .scroller-3b1p7z {
@@ -1853,7 +1857,7 @@ code.inline {
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(5px);
 }
-.button-f2h6uQ[class~="colorBrand-I6CyqQ"]:not(.button-12Fmur):not(.button-1kija8):not(.lookBlank-21BCro), .button-f2h6uQ[class~="fieldButton-14lHv"], .fieldList-in8WkP button:not([class~="lookLink-15mFoz"]), .ttsPreviewWrapper-1d5bI6 .button-f2h6uQ {
+.button-f2h6uQ[class~="colorBrand-I6CyqQ"]:not(.button-12Fmur):not(.button-1kija8):not(.lookBlank-21BCro), .button-f2h6uQ[class~="fieldButton-14lHv"], .fieldList-in8WkP button:not([class~="lookLink-15mFoz"]), .ttsPreviewWrapper-1d5bI6 .button-f2h6uQ, .item-1TA5qI {
   background-color: rgba(0, 0, 0, 0.2) !important;
   border-style: solid;
   border-color: var(--generalColor);
@@ -1863,6 +1867,9 @@ code.inline {
 }
 .button-f2h6uQ:hover {
   background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.radioBar-1XgZqD {
+  background-color: transparent !important;
 }
 .bar-1Bhnl9 {
   background-color: rgba(0, 0, 0, 0.2) !important;
@@ -1880,7 +1887,7 @@ code.inline {
   color: white !important;
   text-shadow: 0px 0px 5px black;
 }
-.select-1Ia3hD {
+.select-1Ia3hD, .select-Zz0IcO {
   background-color: rgba(0, 0, 0, 0.4) !important;
   backdrop-filter: blur(5px);
 }
@@ -1965,10 +1972,6 @@ code.inline {
 .layerContainer-2v_Sit .layer-2aCOJ3 .container-2O1UgZ .item-1BCeuB[class~="selectedBrand-1AtwYE"] {
   background-color: rgb(255, 255, 255, 0.2);
 }
-/* .layerContainer-2v_Sit .layer-2aCOJ3 .container-2oNtJn {
-  box-shadow: 0px 0px 5px gray !important;
-  background-color: rgb(255, 255, 255, 0.2) !important;
-} */
 
 .container-2nx-BQ[class~="checked-25WXMf"], .bd-switch input:checked+.bd-switch-body {
   /* On Checkbox */
@@ -1983,12 +1986,19 @@ code.inline {
   border: 2px solid var(--border-Accent-Color);
 }
 
-/* Slider Head Position fix */
+/* Volume Slider Head Position fix */
 .slider-32CRPX, .bd-switch-slider {
   padding-bottom: 3px !important;
 }
 .sliderContainer-2nidiS .slider-BEB8u7 .grabber-2GQyvM {
   margin-top: 5px !important;
+}
+.sliderContainer-2nidiS .bar-2H7Q9u .barFill-3RgCsY {
+  background-color: var(--generalColor) !important;
+}
+.sliderContainer-2nidiS .bar-2H7Q9u {
+  background-color: var(--border-Accent-Color);
+  box-shadow: 0px 0px 5px var(--generalColor) !important;
 }
 
 /* Plugin Compatibility */
