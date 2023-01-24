@@ -1,5 +1,5 @@
 # BetterDiscordThemes
-A collection of my themes, some might have old code that is useless, some might be really simple, but I will try to keep everything updated)
+A collection of my themes! Some might have old code that is useless, some might be really simple, but I will try to keep everything updated)
 
 ## [V3rzeT Theme](https://github.com/V3rzeT/BetterDiscordThemes/releases/download/v1/V3rzeT_latest.theme.css)
 
