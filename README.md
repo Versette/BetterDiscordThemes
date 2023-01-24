@@ -1,7 +1,7 @@
 # BetterDiscordThemes
 A collection of my themes, some might have old code that is useless, some might be really simple, but I will try to keep everything updated)
 
-## V3rzeT Theme
+## [V3rzeT Theme](https://github.com/V3rzeT/BetterDiscordThemes/releases/download/v1/V3rzeT_latest.theme.css)
 
 ### Features
 - :white_check_mark: Cyan colors
@@ -14,7 +14,7 @@ A collection of my themes, some might have old code that is useless, some might 
 
 ![V3rzeT Theme screenshot](https://i.imgur.com/BToK2XO.png)
 
-## Resize Stuff
+## [Resize Stuff](https://github.com/V3rzeT/BetterDiscordThemes/releases/download/v1/ResizeStuff_latest.theme.css)
 ### Features
 - :white_check_mark: Makes left sidebar bigger
 - :white_check_mark: Best used with V3rzeT Theme
