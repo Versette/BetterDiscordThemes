@@ -818,7 +818,7 @@ code.inline {
 .chat-2ZfjoI .content-1jQy2l .container-2o3qEW {
   background-color: rgba(255, 255, 255, 0.03);
 }
-.desaturateUserColors-1O-G89 span {
+.desaturateUserColors-1O-G89 span, .membersGroup-2eiWxl {
   color: white !important;
 }
 
@@ -852,17 +852,17 @@ code.inline {
 }
 
 /* Profile Nickname Font */
-.username-3JLfHz, .discrimBase-1VOoau {
+.username-3JLfHz, .userTagDiscriminatorNoNickname-2HLaIE {
   color: white !important;
 }
 
 /*Right Click Dialog*/
-.menu-1QACrS {
+.layerContainer-2v_Sit .layer-2aCOJ3 .menu-1QACrS {
   background-color: rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 5px gray;
   text-shadow: 0px 0px 5px black;
 }
-.menu-1QACrS::before {
+.layerContainer-2v_Sit .layer-2aCOJ3 .menu-1QACrS::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -871,14 +871,14 @@ code.inline {
   z-index: -999;
   border-radius: 5px;
 }
-.menu-1QACrS .button-1zW0-r {
+.layerContainer-2v_Sit .layer-2aCOJ3 .menu-1QACrS .scroller-1bVxF5 .button-1zW0-r {
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.2);
 }
-.menu-1QACrS .item-1OdjEX[class~="focused-3qFvc8"] {
+.layerContainer-2v_Sit .layer-2aCOJ3 .menu-1QACrS .scroller-1bVxF5 .item-1OdjEX[class~="focused-3qFvc8"] {
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
-.label-2gNW3x {
+.layerContainer-2v_Sit .layer-2aCOJ3 .menu-1QACrS .scroller-1bVxF5 .label-2gNW3x {
   font-weight: 400;
   color: white;
 }
@@ -1149,6 +1149,18 @@ code.inline {
   color: white;
 }
 
+/* Server Chat */
+.inner--CkhGx .subtitle-3tY4DQ {
+  color: white !important;
+}
+.chatContent-3KubbW .card-PQEqCK {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px) !important;
+  border-radius: 8px;
+  border: 2px solid var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+
 /* Text Input Field Stuff */
 .slateTextArea-27tjG0 {
   caret-color: white;
@@ -1378,18 +1390,43 @@ code.inline {
 }
 
 /* User Popout */
-.userProfileModalOuter-1FYL8T, .userProfileModalInner-3fh3QA, .body-_QAKrE, .userProfileModalOverlayBackground-8p3-eU, .topSection-1Khgkv, .root-2uUafN .userPopoutOuter-3AVBmJ, .userPopoutInner-1hXSeY, .userPopoutOverlayBackground-dKOOda {
+.userProfileModalOuter-1FYL8T, .userProfileModalInner-3fh3QA, .body-_QAKrE, .userProfileModalOverlayBackground-8p3-eU, .topSection-1Khgkv, .userPopoutInner-1hXSeY, .userPopoutOverlayBackground-dKOOda {
   background: none !important;
   backdrop-filter:unset !important;
+}
+.layerContainer-2v_Sit .userPopoutInner-1hXSeY::before {
+  display: none;
 }
 .userPopoutInner-1hXSeY .scroller-1jBQYo::-webkit-scrollbar, .userPopoutInner-1hXSeY .scroller-1jBQYo::-webkit-scrollbar-track {
   background-color: transparent !important;
 }
+.profileBadges-31rDHI {
+  background-color: transparent;
+  box-shadow: 0px 0px 5px var(--border-Accent-Color);
+}
 .layerContainer-2v_Sit .userPopoutOuter-3AVBmJ {
+  background: none !important;
   background-color: rgba(0, 0, 0, 0.3) !important;
-  backdrop-filter: blur(15px);
+  box-shadow: 0px 0px 5px var(--generalColor);
+}
+.layerContainer-2v_Sit .userPopoutOuter-3AVBmJ::before, .layerContainer-2v_Sit .userPopoutOuter-3AVBmJ .scroller-1bVxF5 .layer-2aCOJ3::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color: transparent;
+  backdrop-filter: blur(15px) !important;
+  border-radius: 8px;
   border: 2px solid var(--generalColor);
   box-shadow: 0px 0px 5px var(--generalColor);
+}
+.layerContainer-2v_Sit .userPopoutOuter-3AVBmJ .submenu-1apzyU .item-1OdjEX {
+  color: white !important;
+}
+.layerContainer-2v_Sit .userPopoutOuter-3AVBmJ .item-1OdjEX[id="account-status-picker"] + .layer-2aCOJ3 .submenu-1apzyU .separator-1So4YB {
+  display: none;
 }
 .userProfileModalInner-3fh3QA::before {
   display: none;
@@ -1439,9 +1476,8 @@ code.inline {
 .userInfoText-2MFCmH {
   overflow: visible;
 }
-.userPopout-2j1gM4 .bodyTitle-2Az3VQ, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .headerText-3g1XK9, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .playTime-3fSgOm, .root-2uUafN .textarea-_59yqs, .memberSinceContainer-3biwiY .defaultColor-1EVLSt, .discriminator-3_S3CG, .textarea-_59yqs, .scroller-1jBQYo .markup-eYLPri .defaultColor-1EVLSt, .customStatus-3Bvsdb {
-  color: white !important;
-  text-shadow: 0px 0px 5px black !important;
+.inputWrapper-2K8ds1 {
+  border-color: var(--border-Accent-Color);
 }
 .gameIcon-1mDo1J {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -1484,6 +1520,44 @@ code.inline {
   border-width: 2px;
   box-shadow: 0px 0px 5px var(--generalColor) !important;
   backdrop-filter: blur(5px);
+}
+
+/* Account Left Bottom Popout */
+.layerContainer-2v_Sit .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ .scroller-1jBQYo + .divider-1tWBgZ {
+  display: none;
+}
+.layerContainer-2v_Sit .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ .menu-1QACrS {
+  margin-top: 15px !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: unset !important;
+  box-shadow: none;
+}
+.layerContainer-2v_Sit .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ .menu-1QACrS .scroller-1bVxF5::-webkit-scrollbar-track {
+  display: none;
+}
+.layerContainer-2v_Sit .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ .menu-1QACrS::before {
+  display: none;
+}
+
+/* RPC Stuff */
+.userPopout-2j1gM4 .bodyTitle-2Az3VQ, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .headerText-3g1XK9, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .playTime-3fSgOm, .root-2uUafN .textarea-_59yqs, .memberSinceContainer-3biwiY .defaultColor-1EVLSt, .discriminator-3_S3CG,.textarea-_59yqs, .scroller-1jBQYo .markup-eYLPri .defaultColor-1EVLSt, .customStatus-3Bvsdb, .note-6O4w9y {
+  color: white !important;
+  text-shadow: 0px 0px 5px black !important;
+}
+.activityUserPopoutV2-3eKqzY .flex-2S1XBF .button-TGAkj4 {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}
+.activityUserPopoutV2-3eKqzY .flex-2S1XBF .button-TGAkj4::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 3px;
+  border: 2px solid var(--generalColor);
+  box-shadow: 0px 0px 5px var(--generalColor);
+  position: -3px !important;
 }
 
 /* Emote, GIF, Sticker Menu */
@@ -2064,7 +2138,7 @@ code.inline {
   margin-right: 8px;
 }
 /* OnlineFriendCount by Zerthox */
-.friendsOnline-2JkivW {
+.item-OnlineFriendCount {
   margin-top: 5px;
   color: white;
   line-height: 9px;
