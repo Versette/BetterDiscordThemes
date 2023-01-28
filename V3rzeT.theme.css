@@ -289,12 +289,12 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .withFrame-2dL45i {padding-top:4px;margin-top:0;background:rgba(transparent,var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* Server list */
-.wrapper-1_HaEi {background:transparent}
+.wrapper-1_HaEi, .wrapper-1_HaEi .scroller-3X7KbA {background:transparent}
 .scroller-3X7KbA {background:rgba(transparent,var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* Channels and friends */
 #app-mount .sidebar-1tnWFu, .notice-1x8lm- {border-radius:0}
-.sidebar-1tnWFu {background:transparent}
+.sidebar-1tnWFu, .sidebar-1tnWFu .scroller-WSmht3 {background:transparent}
 .sidebar-1tnWFu {backdrop-filter:blur(var(--sides-blur))}
 .container-1NXEtd {background:rgba(transparent,var(--sides-transparency))}
 
@@ -326,7 +326,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 }
 
 /* User panel */
-.panels-3wFtMD {background:rgba(var(--color-secondary-alt),var(--sides-transparency))}
+.panels-3wFtMD, .panels-3wFtMD .container-YkUktl {background:rgba(var(--color-secondary-alt),var(--sides-transparency))}
 
 /* Chat */
 .chat-2ZfjoI, .container-3XgAHv {background:transparent} /* Chat and threads chat */
@@ -739,7 +739,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 }
 
 /* Friend Activity Panel */
-.container-1oAagU .itemCard-3Etziu {
+.container-1oAagU .itemCard-3Etziu, .emptyCard-KDifrB {
   border-style: solid !important;
   border-width: 2px !important;
   border-color: var(--generalColor) !important;
@@ -753,7 +753,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .container-1oAagU .body-16rSsp, .container-1oAagU .section-3G9aLW {
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
-.container-1oAagU .text-sm-normal-3Zj3Iv {
+.container-1oAagU .text-sm-normal-3Zj3Iv, .emptyCard-KDifrB .emptyText-29ycwI {
   color: white !important;
 }
 .container-1oAagU .outer-VAWfYQ {
@@ -905,7 +905,7 @@ code.inline {
 }
 
 /* Server Voice Channels */
-.sidebar-1tnWFu .scroller-1ox3I2 {
+.sidebar-1tnWFu .scroller-WSmht3 {
   padding-right: 8px !important;
 }
 
@@ -1874,6 +1874,7 @@ code.inline {
   background: var(--generalColor)!important;
   border-radius: 20px!important;
   border: none!important;
+  /* box-shadow: 0px 0px 5px var(--generalColor); */
 }
 
 .content-3YMskv {
@@ -1886,6 +1887,15 @@ code.inline {
 }
 
 /* Settings Stuff */
+.app-2CXKsg .notice-2HEN-u, .bd-notice {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px !important;
+  margin: 10px;
+  padding: 1px;
+  box-shadow: 0px 0px 5px white;
+}
 .group-LWHoGI {
   border: 1px solid var(--border-Accent-Color);
 }
