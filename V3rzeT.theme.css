@@ -785,11 +785,14 @@ code.inline {
 }
 
 /* Bottom Left User Panel */
+.activityPanel-9icbyU {
+  border: none;
+}
 .panels-3wFtMD {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   background-color: rgba(255, 255, 255, 0.05);
 }
-.panels-3wFtMD .rtcConnectionStatus-c5A6Av .labelWrapper-1HofQ- button:hover {
+.panels-3wFtMD .rtcConnectionStatus-c5A6Av .labelWrapper-1HofQ- button:hover, .container-1zzFcN {
   background-color: transparent !important;
 }
 
