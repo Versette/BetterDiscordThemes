@@ -1,4 +1,5 @@
-
-RevertRebrand.theme.css
-*.png
-test.theme.css
+*.*
+!V3rzeT.theme.css
+!V3rzeT_latest.theme.css
+!ResizeStuff.theme.css
+!ResizeStuff_latest.theme.css
