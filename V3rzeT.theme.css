@@ -30,6 +30,12 @@
   display: none;
 }
 
+/* Removal of other misc annoyances */
+.channel-1Shao0:has(.link-39sEB3[data-list-item-id*="nitro"]), .channel-1Shao0:has(.activitiesBirthdayIcon-1Ou-De) {
+  /* This removes nitro and Discord birthday "channel" sidebar items */
+  display: none;
+}
+
 /* Revert CSS variables: colors, fonts */
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css');
 
@@ -1590,8 +1596,11 @@ code.inline {
 .userProfileInnerThemedWithBanner-25XGmz {
   background: none;
 }
-.userPopoutInner-nv9Y92::before {
-  background-color: transparent;
+.userPopoutInner-nv9Y92::before, .userProfileInnerThemedNonPremium-2AJg-H {
+  background: none;
+}
+.userPopoutInner .avatarHoverTarget-1zzfRL circle {
+  fill: transparent;
 }
 
 /* Account Left Bottom Popout */
