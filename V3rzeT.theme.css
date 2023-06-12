@@ -26,7 +26,13 @@
 .contentRegion-3HkfJJ .children-2C96Ex .warning-RBGtx2[class~="accountWarningBodyText-2DEVPu"] {
   display: none;
 }
-.sidebar-nqHbhN .item-2GWPIy[aria-controls~="my-account-tab"] svg, .pomeloWarning-2_xa4U {
+.sidebar-nqHbhN:first-child svg, .pomeloWarning-2_xa4U {
+  display: none;
+}
+.panels-3wFtMD .horizontal-112GEH button .buildOverrideButton-1cRvTc svg foreignObject  {
+  mask: none;
+}
+.panels-3wFtMD .horizontal-112GEH button .buildOverrideButton-1cRvTc .circleBadge-yRqaN- {
   display: none;
 }
 
@@ -455,6 +461,11 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
   backdrop-filter: blur(10px) !important;
 }
 
+/* The good Discord logo (homeIcon) :> */
+[d="M23.0212 1.67671C21.3107 0.879656 19.5079 0.318797 17.6584 0C17.4062 0.461742 17.1749 0.934541 16.9708 1.4184C15.003 1.12145 12.9974 1.12145 11.0283 1.4184C10.819 0.934541 10.589 0.461744 10.3368 0.00546311C8.48074 0.324393 6.67795 0.885118 4.96746 1.68231C1.56727 6.77853 0.649666 11.7538 1.11108 16.652C3.10102 18.1418 5.3262 19.2743 7.69177 20C8.22338 19.2743 8.69519 18.4993 9.09812 17.691C8.32996 17.3997 7.58522 17.0424 6.87684 16.6135C7.06531 16.4762 7.24726 16.3387 7.42403 16.1847C11.5911 18.1749 16.408 18.1749 20.5763 16.1847C20.7531 16.3332 20.9351 16.4762 21.1171 16.6135C20.41 17.0369 19.6639 17.3997 18.897 17.691C19.3052 18.4993 19.7718 19.2689 20.3021 19.9945C22.6677 19.2689 24.8929 18.1364 26.8828 16.6466H26.8893C27.43 10.9731 25.9665 6.04728 23.0212 1.67671ZM9.68041 13.6383C8.39754 13.6383 7.34085 12.4453 7.34085 10.994C7.34085 9.54272 8.37155 8.34973 9.68041 8.34973C10.9893 8.34973 12.0395 9.54272 12.0187 10.994C12.0187 12.4453 10.9828 13.6383 9.68041 13.6383ZM18.3161 13.6383C17.0332 13.6383 15.9765 12.4453 15.9765 10.994C15.9765 9.54272 17.0124 8.34973 18.3161 8.34973C19.6184 8.34973 20.6751 9.54272 20.6543 10.994C20.6543 12.4453 19.6184 13.6383 18.3161 13.6383Z"] {
+  d: path('M 34.8511 36.0025 L 34.8511 36.255 Z M 20.7053 19.9378 C 20.7053 19.9378 19.8437 18.9268 19.1256 18.0334 C 22.2611 17.1634 23.4579 15.2355 23.4579 15.2355 C 22.4765 15.8703 21.5431 16.317 20.7053 16.6227 C 19.5086 17.1164 18.3597 17.4456 17.2347 17.6337 C 14.9369 18.0569 12.8306 17.9393 11.0355 17.6102 C 9.6712 17.3515 8.4983 16.9754 7.517 16.5992 C 6.9665 16.3876 6.3681 16.1289 5.7697 15.7998 C 5.6979 15.7527 5.6261 15.7292 5.5543 15.6822 C 5.5064 15.6587 5.4825 15.6352 5.4585 15.6117 C 5.0277 15.3765 4.7884 15.212 4.7884 15.212 C 4.7884 15.212 5.9373 17.0929 8.9771 17.9864 C 8.259 18.8798 7.3734 19.9378 7.3734 19.9378 C 2.0836 19.7733 0.0731 16.364 0.0731 16.364 C 0.0731 8.7932 3.5197 2.6567 3.5197 2.6567 C 6.9665 0.1174 10.2456 0.1879 10.2456 0.1879 L 10.4849 0.4701 C 6.1767 1.6927 4.19 3.5501 4.19 3.5501 C 4.19 3.5501 4.7166 3.268 5.6022 2.8683 C 8.1632 1.7632 10.1978 1.4575 11.0355 1.387 C 11.1791 1.3635 11.2988 1.34 11.4424 1.34 C 12.9024 1.1519 14.554 1.1049 16.2773 1.293 C 18.5512 1.5516 20.9925 2.2099 23.4818 3.5501 C 23.4818 3.5501 21.5909 1.7867 17.5219 0.5641 L 17.857 0.1879 C 17.857 0.1879 21.1362 0.1174 24.5828 2.6567 C 24.5828 2.6567 28.0295 8.7932 28.0295 16.364 C 28.0295 16.364 25.995 19.7733 20.7053 19.9378 Z M 9.5754 8.9578 C 8.2111 8.9578 7.134 10.1334 7.134 11.5676 C 7.134 13.0019 8.235 14.1774 9.5754 14.1774 C 10.9397 14.1774 12.0168 13.0019 12.0168 11.5676 C 12.0407 10.1334 10.9397 8.9578 9.5754 8.9578 M 18.3118 8.9578 C 16.9475 8.9578 15.8704 10.1334 15.8704 11.5676 C 15.8704 13.0019 16.9714 14.1774 18.3118 14.1774 C 19.6761 14.1774 20.7532 13.0019 20.7532 11.5676 C 20.7532 10.1334 19.6761 8.9578 18.3118 8.9578');
+}
+
 /* Discord Logo Animation */
 @keyframes oldDiscordLogoAnim {
   from {
@@ -608,6 +619,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 }
 .homeIcon-r0w4ny {
   border: none !important;
+  transition: ease-in-out 0.15s;
 }
 .tooltip-14MtrL, .layerContainer-2lfOPe .tooltipContent-Nejnvh {
   background-color: rgba(0, 0, 0, 0.15) !important;
@@ -1599,7 +1611,7 @@ code.inline {
 .userPopoutInner-nv9Y92::before, .userProfileInnerThemedNonPremium-2AJg-H, .userProfileInnerThemedPremiumWithoutBanner-lZ9inp {
   background: none;
 }
-.avatar-3QF_VA circle {
+.avatar-3QF_VA circle, .userPopoutInner-nv9Y92 .wrapper-3Un6-K circle {
   fill: transparent;
 }
 
@@ -1760,7 +1772,7 @@ code.inline {
 .speaking-7QZEkv {
   box-shadow: inset 0px 0px 30px var(--generalColor),inset 0 0 0 3px var(--generalColor) !important;
 }
-.avatarSpeaking-2pCGrZ {
+.avatarSpeaking-2pCGrZ, .avatarSpeaking-36V2PN {
   box-shadow: inset 0px 0px 10px var(--generalColor),inset 0 0 0 2px var(--generalColor) !important;
 }
 .avatarSpeaking-33RRJU {
@@ -2201,6 +2213,9 @@ code.inline {
   border-color: var(--generalColor);
   border-width: 2px;
   box-shadow: 0px 0px 5px var(--generalColor) !important;
+}
+.VoiceActivity-voiceprofilesection-header, .VoiceActivity-voiceprofilesection-text {
+  color: white !important;
 }
 .VoiceActivity-voiceicon-icon:hover{
   background-color: rgba(255, 255, 255, 0.3);
