@@ -1593,7 +1593,7 @@ code.inline {
   background-color: rgba(0, 0, 0, 0.02);
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
 }
-.headerText-1-WmDq div {
+.headerText-1-WmDq div, .markup-eYLPri .text-sm-normal-AEQz4v {
   color: white !important;
 }
 .userPopout-2j1gM4 .button-TGAkj4 {
@@ -1612,6 +1612,9 @@ code.inline {
 }
 .avatar-3QF_VA circle, .userPopoutInner-nv9Y92 .wrapper-3Un6-K circle {
   fill: transparent;
+}
+.userPopoutInner-nv9Y92 .section-28YDOf .role-2TIOKu .roleNameOverflow-Xok3NR {
+  color: white;
 }
 
 /* Account Left Bottom Popout */
@@ -1635,7 +1638,7 @@ code.inline {
 }
 
 /* RPC Stuff */
-.userPopout-2j1gM4 .bodyTitle-2Az3VQ, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .headerText-3g1XK9, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .playTime-3fSgOm, .root-2uUafN .textarea-_59yqs, .memberSinceContainer-3biwiY .defaultColor-1EVLSt, .discriminator-3_S3CG,.textarea-_59yqs, .scroller-1jBQYo .markup-eYLPri .defaultColor-1EVLSt, .customStatus-3Bvsdb, .note-6O4w9y {
+.userPopout-2j1gM4 .bodyTitle-2Az3VQ, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .headerText-3g1XK9, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .nameNormal-2fPMD2, .userPopout-2j1gM4 .activityUserPopout-2MzGCj .playTime-3fSgOm, .root-2uUafN .textarea-_59yqs, .memberSinceContainer-3biwiY .defaultColor-1EVLSt, .discriminator-3_S3CG,.textarea-_59yqs, .scroller-1jBQYo .markup-eYLPri .defaultColor-1EVLSt, .customStatus-3Bvsdb, .note-6O4w9y, .activityUserPopoutV2-3eKqzY .headerText-3g1XK9, .activityUserPopoutV2-3eKqzY .activityName-3YXl6e, .activityUserPopoutV2-3eKqzY .text-31kWmP, .details-2-ciHo, .timestamp-2f1NmH {
   color: white !important;
   text-shadow: 0px 0px 5px black !important;
 }
@@ -1881,9 +1884,11 @@ code.inline {
   border-color: var(--generalColor);
   border-width: 2px;
   box-shadow: 0px 0px 5px var(--generalColor) !important;
-  backdrop-filter: blur(5px);
 }
-.wrapper-3t3Yqv .controlButton-2PMNom svg {
+.wrapper-3t3Yqv foreignObject {
+  mask: none;
+}
+.wrapper-3t3Yqv .contextMenuContainer-1RO4DQ svg {
   overflow: visible !important;
 }
 .wrapper-3t3Yqv .controlButton-2PMNom .centerIcon-JYpTUi path, .wrapper-3t3Yqv .controlButton-2PMNom .directionDown-2w0MZz {
@@ -1904,8 +1909,12 @@ code.inline {
 .wrapper-3t3Yqv .controlButton-2PMNom .contextMenuNub-NuTZ_U:hover > .directionDown-2w0MZz {
   filter: drop-shadow(0px 0px 5px white) !important;
 }
-.buttonContainer-1sjtPU .controlButton-2PMNom, .buttonContainer-1sjtPU .dot-SviNJC {
-  /* Removal of rocket activities icon */
+.actionButtons-2vEOUh *:nth-child(3), .wrapper-3t3Yqv *:nth-child(3) {
+  /* Removal of rocket activities button */
+  display: none !important;
+}
+.actionButtons-2vEOUh *:nth-child(4), .videoControls-353CsJ .voiceEffectsActionBar-EX-WFC > div:nth-child(1) {
+  /* Removal of soundboard button */
   display: none !important;
 }
 /* TODO FIX THE BUTTONS CUTTING OFF */
@@ -2189,10 +2198,10 @@ code.inline {
 /* .sliderContainer-3vLXjN .slider-1mmyV6 .grabber-3R-Rx9 {
   margin-top: 5px !important;
 } */
-.sliderContainer-3vLXjN .bar-2H7Q9u .barFill-3RgCsY {
+.sliderContainer-3vLXjN .bar-2H7Q9u .barFill-3RgCsY, .barInner-3dHef4 {
   background-color: var(--generalColor) !important;
 }
-.sliderContainer-3vLXjN .bar-2H7Q9u {
+.sliderContainer-3vLXjN .bar-2H7Q9u, .bar-1GpknY {
   background-color: var(--border-Accent-Color);
   box-shadow: 0px 0px 5px var(--generalColor) !important;
 }
