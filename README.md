@@ -1,3 +1,10 @@
+# ARCHIVAL NOTICE
+## Discord really likes updating everything very often. For this reason, I eventually gave up on updating everything every update. Maybe I will rewrite everything in the future.
+## Current status: fully broken.
+
+
+<details>
+  <summary>Old readme</summary>
 # BetterDiscordThemes
 A collection of my themes! Some might have old code that is useless, some might be really simple, but I will try to keep everything updated)
 
@@ -20,3 +27,4 @@ A collection of my themes! Some might have old code that is useless, some might 
 - :white_check_mark: Best used with V3rzeT Theme
 
 ![Resize Stuff Theme screenshot](https://i.imgur.com/Jvwe6q4.png)
+</details>
